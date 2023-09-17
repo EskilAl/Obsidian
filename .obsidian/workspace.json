@@ -1,0 +1,203 @@
+{
+  "main": {
+    "id": "57604d51ba3b4b98",
+    "type": "split",
+    "children": [
+      {
+        "id": "794c04c7d9c010fe",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23b9119b4862a3c8",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "75a9af88884b5730",
+    "type": "split",
+    "children": [
+      {
+        "id": "0827f02a712f84e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4ae21057b15268c8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "abd49ce58f9400bb",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#TCP",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "03020b28fee430e7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "200c41d652f861f4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e9741449cc80213",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1865f8c3ed5580f0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f7b5a17e5b9f2437",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57e1bf44ea6bbd44",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5de6b3b48e8da99e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png"
+              }
+            }
+          },
+          {
+            "id": "b7e2f41095c5c732",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
+    }
+  },
+  "active": "4ae21057b15268c8",
+  "lastOpenFiles": [
+    "New Text Document.txt",
+    "IIKG1001 Cybersikkerhet/Monday 18.09.23.md",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917212113.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917211324.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210838.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210700.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210556.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210309.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210251.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205354.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
+    "IIKG1001 Cybersikkerhet/Wednesday 13.09.23.md",
+    "IIKG1001 Cybersikkerhet/Monday 04.09.23.md",
+    "IIKG1001 Cybersikkerhet/Weekly schedule Cyber.md",
+    "IIKG1001 Cybersikkerhet/15.09.2023 Weekly assignment.md",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230915102038.png",
+    "IIKG1001 Cybersikkerhet/08.09.2023 Weekly assignment.md",
+    "IDATG2202 OS/Terminology.md",
+    "IDATG2202 OS/Tuesday 12.09.2023.md",
+    "IDATG2202 OS/Thusday 05.09.2023.md",
+    "IDATG2102 Algmet/Tuesday 05.09.23.md",
+    "IDATG2102 AlgMet/Algmet schedule.md",
+    "IDATG2102 AlgMet/Tuesday 05.09.23.md",
+    "IDATG2202 OS/Friday 08.09.2023.md",
+    "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
+    "IDATG2202 OS/Chapter 3.md",
+    "IDATG2202 OS/Chapter 2.md",
+    "IDATG2202 OS/Chapter 1.md",
+    "IIKG1001 Cybersikkerhet/Monday 28.08.23.md",
+    "IDATG2102 Alget/Tuesday 05.09.2023.md",
+    "IDATG2102 AlgMet/Rcrusjon.md",
+    "IDATG2202 OS",
+    "2023-09-04.md",
+    "Untitled.canvas",
+    "IIKG1001 Cyber/28.08.2023.md",
+    "IIKG1001 Cyber/Untitled.md",
+    "IIKG1001 Cybersikkerhet",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber",
+    "IDATG2102 AlgMet",
+    "IDATG2202 OS",
+    "IIKG1001 Cyber"
+  ]
+}
