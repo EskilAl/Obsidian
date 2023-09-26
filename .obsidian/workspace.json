@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "794c04c7d9c010fe",
+        "id": "da723e24be31a2a9",
         "type": "tabs",
         "children": [
           {
-            "id": "23b9119b4862a3c8",
+            "id": "b2963005630bfb7f",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png"
+                "file": "Div/LAOS (09.26.2023).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -46,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#TCP",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -67,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 309.5
   },
   "right": {
     "id": "200c41d652f861f4",
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
+                "file": "Div/LAOS (09.26.2023).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
+                "file": "Div/LAOS (09.26.2023).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png"
+                "file": "Div/LAOS (09.26.2023).md"
               }
             }
           },
@@ -158,42 +160,47 @@
   },
   "active": "4ae21057b15268c8",
   "lastOpenFiles": [
-    "New Text Document.txt",
+    "Div/Bilder til div/Pasted image 20230926110242.png",
+    "Div/Bilder til div/Pasted image 20230926091111.png",
+    "Div/Bilder til div",
+    "Div/Bilder til div/Pasted image 20230926090724.png",
+    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
+    "Div/LAOS (09.26.2023).md",
+    "Div",
+    "IIKG1001 Cybersikkerhet/Monday 25.09.23.md",
     "IIKG1001 Cybersikkerhet/Monday 18.09.23.md",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917212113.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917211324.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210838.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210700.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210556.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210309.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917210251.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205354.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230917205328.png",
-    "IIKG1001 Cybersikkerhet/Wednesday 13.09.23.md",
     "IIKG1001 Cybersikkerhet/Monday 04.09.23.md",
+    "IIKG1001 Cybersikkerhet/Wednesday 13.09.23.md",
+    "IIKG1001 Cybersikkerhet/Monday 28.08.23.md",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925092434.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925094839.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925093621.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925092950.png",
     "IIKG1001 Cybersikkerhet/Weekly schedule Cyber.md",
-    "IIKG1001 Cybersikkerhet/15.09.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230915102038.png",
-    "IIKG1001 Cybersikkerhet/08.09.2023 Weekly assignment.md",
+    "IIKG1001 Cybersikkerhet/22.09.2023 Weekly assignment.md",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230922103833.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230922103845.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230922103842.png",
+    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230922103839.png",
+    "IDATG2202 OS/Chapter 4.md",
+    "IDATG2102 Algmet/Tuesday 19.09.23.md",
+    "IDATG2102 AlgMet/Algmet schedule.md",
+    "IDATG2102 AlgMet/Tuesday 19.09.23.md",
     "IDATG2202 OS/Terminology.md",
+    "IIKG1001 Cybersikkerhet/15.09.2023 Weekly assignment.md",
+    "IIKG1001 Cybersikkerhet/08.09.2023 Weekly assignment.md",
+    "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
+    "New Text Document.txt",
     "IDATG2202 OS/Tuesday 12.09.2023.md",
     "IDATG2202 OS/Thusday 05.09.2023.md",
     "IDATG2102 Algmet/Tuesday 05.09.23.md",
-    "IDATG2102 AlgMet/Algmet schedule.md",
     "IDATG2102 AlgMet/Tuesday 05.09.23.md",
     "IDATG2202 OS/Friday 08.09.2023.md",
-    "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
     "IDATG2202 OS/Chapter 3.md",
     "IDATG2202 OS/Chapter 2.md",
     "IDATG2202 OS/Chapter 1.md",
-    "IIKG1001 Cybersikkerhet/Monday 28.08.23.md",
-    "IDATG2102 Alget/Tuesday 05.09.2023.md",
-    "IDATG2102 AlgMet/Rcrusjon.md",
     "IDATG2202 OS",
-    "2023-09-04.md",
     "Untitled.canvas",
-    "IIKG1001 Cyber/28.08.2023.md",
-    "IIKG1001 Cyber/Untitled.md",
     "IIKG1001 Cybersikkerhet",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber",
     "IDATG2102 AlgMet",
