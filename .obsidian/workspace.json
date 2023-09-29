@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDATG2102 AlgMet/Heap.md",
+                "file": "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "200c41d652f861f4",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDATG2102 AlgMet/Heap.md",
+                "file": "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDATG2102 AlgMet/Heap.md",
+                "file": "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDATG2102 AlgMet/Heap.md"
+                "file": "IDATG2202 OS/09.26.2023 Address spaces and paging.md"
               }
             }
           },
@@ -159,10 +158,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ae21057b15268c8",
+  "active": "b2963005630bfb7f",
   "lastOpenFiles": [
-    "IDATG2102 AlgMet/Rcrusjon.md",
     "IDATG2102 AlgMet/Heap.md",
+    "IDATG2102 AlgMet/Rcrusjon.md",
     "IDATG2102 AlgMet/Algmet schedule.md",
     "IDATG2102 AlgMet/Tuesday 19.09.23.md",
     "IDATG2102 AlgMet/Tuesday 05.09.23.md",
