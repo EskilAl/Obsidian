@@ -80,4 +80,25 @@
 	- Most often used
 
 ## Network Address Translation (Nat)
-- **NAT**
+- NAT is a protocol operating typically on a **router** between a **private network** and **the Internet.**
+	• Hence, NAT belongs to the Internet layer of TCP/IP model.
+- **NAT** is responsible for **translating** between a private IP address and public IP address.
+- NAT allows **multiple computers on a private network** to connect to the internet by **using just one public IP address. 
+
+## Nat used today 
+• It is called **Port Address Translation (PAT)**. Also known as **NAT Overload**.
+• PAT works on routers by creating **dynamic NAT mapping**.
+• It allows multiple devices to access the internet simultaneously using the same public IP address but with different port numbers.
+• It uses different port numbers to keep track of which internal device a specific outbound network request belongs to.
+
+## Benefits of NAT
+- with NAT, we don't need to purchase one public IP address for each computer inside a network to access the internet.
+	- They can **share** just one public IP address
+- In addition, NAT provides a layer of protection because **all computers on a network** are **hidden** from the internet.
+	- Because of private IP addresses, these computers aren't easy to be attacked from the internet.
+
+## Steps taken by a router
+1. Extract the net ID of the destination IP address of the data packet.
+2. Compare the net ID with its routing table to see if there is any matching route.
+3. if there is a match, the router sends the data packet to the next hop via the corresponding interface.
+4. Otherwise, the router chooses the default route and forwards the packet.
