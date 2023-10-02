@@ -1,5 +1,24 @@
 # Subnetting, CIDR, DHCP, NAT, Routing, ARP
 
+- [[#Subnetting|Subnetting]]
+- [[#Classless inter-Domain routing (CIDR)|Classless inter-Domain routing (CIDR)]]
+- [[#CIDR Notation|CIDR Notation]]
+- [[#The Structure of an IP Address in CIDR|The Structure of an IP Address in CIDR]]
+- [[#CIDR subnetting example|CIDR subnetting example]]
+- [[#CIDR blocks|CIDR blocks]]
+- [[#How are IP addresses allocated in the real world?|How are IP addresses allocated in the real world?]]
+- [[#Recap - Public IP Addresses Vs Private IP Addresses|Recap - Public IP Addresses Vs Private IP Addresses]]
+	- [[#Recap - Public IP Addresses Vs Private IP Addresses#public|public]]
+	- [[#Recap - Public IP Addresses Vs Private IP Addresses#Private|Private]]
+- [[#Questions|Questions]]
+- [[#Two ways to assign  private IP address to a computer device|Two ways to assign  private IP address to a computer device]]
+- [[#Network Address Translation (Nat)|Network Address Translation (Nat)]]
+- [[#Nat used today|Nat used today]]
+- [[#Benefits of NAT|Benefits of NAT]]
+- [[#Steps taken by a router|Steps taken by a router]]
+- [[#The router needs to know the machine's MAC address|The router needs to know the machine's MAC address]]
+- [[#summing up|summing up]]
+
 ## Subnetting
 - An IP address range is *a series of IOP addresses*
 	- For example, 0.0.0.0 - 255.255.255.255 is the entire IPv4 address range.
