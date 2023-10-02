@@ -25,7 +25,7 @@
 - For allow multiple organizations and users to use IP addresses, *subnetting* is used.
 	- Subnetting refers to breaking an IP address range into smaller  pieces to that multiple 
 	  smaller networks can be created and user to multiple organizations
-	  - For example classfil addressing is a subnetting approch to break IPv4
+	  - For example classful addressing is a subnetting approach to break IPv4
 
 ## Classless inter-Domain routing (CIDR)
 - CIDR was introduced in 1993 to replace classful addressing.
