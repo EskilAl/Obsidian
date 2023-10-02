@@ -68,3 +68,16 @@
 2. Who is responsible for translating between a private IP address and a public IP address? 
 3. How does a router know the next hop to send a data packet?
 4. How does a router send the packet to the "correct" machine within its local area network.
+
+## Two ways to assign  private IP address to a computer device
+
+- **Manually**
+	- Less often used
+	- The private IP address is called the "static" private IP address.
+	- The computer device will always use the same private IP address.
+
+- **Dynamically using DHCP
+	- Most often used
+
+## Network Address Translation (Nat)
+- **NAT**
