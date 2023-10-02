@@ -102,3 +102,28 @@
 2. Compare the net ID with its routing table to see if there is any matching route.
 3. if there is a match, the router sends the data packet to the next hop via the corresponding interface.
 4. Otherwise, the router chooses the default route and forwards the packet.
+ ![[Pasted image 20231002093519.png]]
+
+## The router needs to know the machine's MAC address
+- Recall: **MAC addresses** are used to identify computers **within** a network.
+1. The router will first check its ARP table.
+	- ARP stands for **Address resolution port**
+2. If it can find the machine's MAC address, it can directly send the packet to the machine. 
+3. Otherwise  it will **broadcast** an ARP request to the network.
+	- "Who is using 192.168.1.22? Give me your MAC address."
+4. once receiving an ARP reply from the machine, a mapping entry will be added to the ARP table.
+
+## summing up
+- We have learned
+	• purpose of subnetting
+	• Problems with Classful Addressing
+	• Classless Inter-Domain Routing (CIDR)
+		• CIDR notation
+		• How to subnet an IP address range based on CIDR
+	• Who allocate IP addresses to us
+	• Differences between public IP addresses and private IP addresses
+	• How our computer devices get a private IP address
+		• Mostly done by DHCP
+	• NAT is responsible for translating between a private IP address and a public IP address
+	• How a router routes a data packet
+	• ARP is used to find out a local machine’s MAC address
