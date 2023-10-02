@@ -40,4 +40,25 @@
 
 ## CIDR blocks 
 - A CIDR block consists of an IP address, followed by a forward slash (/), and a CIDR block prefix.
-- 
+- A CIDR block is **a group of IP addresses** that share **the same net ID**.
+- Example: 192.269.1.0/24 is a CIDR block.
+- **The size of a CIDR block** is determined by **the length of the CIDR block prefix**.
+	- A long prefix length provides less host ID's.
+	- A short prefix length provides more host ID's.
+
+## How are IP addresses allocated in the real world?
+![[Pasted image 20231002084726.png]]
+
+## Recap - Public IP Addresses Vs Private IP Addresses
+
+### public
+- Public IP addresses are IP addresses that are **directly reachable** from the internet.
+- They are used to **identify** a specific device or network on the internet.
+- Provided by internet service providers(ISP).
+- They come with a cost.
+
+### Private
+- Private IP addresses **cannot** be directly reachable from the internet.
+- They are **reserved** and used for **internal communication** within a private network.
+	- E.g., home network or an organization
+
