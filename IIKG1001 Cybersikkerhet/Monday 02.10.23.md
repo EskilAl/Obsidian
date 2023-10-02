@@ -60,5 +60,11 @@
 ### Private
 - Private IP addresses **cannot** be directly reachable from the internet.
 - They are **reserved** and used for **internal communication** within a private network.
-	- E.g., home network or an organization
+	- E.g., home network or an organization's intranet.
+- Private IP addresses can be **freely used** within any private network.
 
+## Questions 
+1.  How do computer devices get a private IP address
+2. Who is responsible for translating between a private IP address and a public IP address? 
+3. How does a router know the next hop to send a data packet?
+4. How does a router send the packet to the "correct" machine within its local area network.
