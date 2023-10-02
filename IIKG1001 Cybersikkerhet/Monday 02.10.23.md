@@ -25,4 +25,19 @@
 	- IF x=1 bit, 2^1 subnets can be crated.
 	- IF x=2 bit, 2^2 subnets can be crated.
 	- IF x=3 bit, 2^3 subnets can be crated.
-- Each crated subnet can be **Assigned** to an organization. 
+- Each crated subnet can be **Assigned** to an organization.
+
+## CIDR subnetting example
+- Suppose a company bought a class-C IP address range (200.250.180.0/24) from an ISP
+- The IP address range is from **200.250.180.0** to **200.250.180.255
+- Assume that the company needs **four** networks with **a minimum of a 25 IP addresses** in  each one.
+- How do we make it happen?
+	- IF x=1, then 2^1 subnetworks can be created. But two subnetworks don't meet the requirement.
+	- IF x=2, then 2^2 subnetworks can be created
+		- Each subnetwork can offer 2^(8-2) (i.3.,64) host IDs
+- in other word, a network of 200.250.180.0/26 provides 4 subnets.
+- Each subnets provides 62 available host IDs
+
+## CIDR blocks 
+- A CIDR block consists of an IP address, followed by a forward slash (/), and a CIDR block prefix.
+- 
