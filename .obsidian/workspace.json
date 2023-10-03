@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/The Memory Manager.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/The Memory Manager.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/The Memory Manager.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md"
+                "file": "Windows Copilot stories/The Memory Manager.md"
               }
             }
           },
@@ -160,8 +160,13 @@
   },
   "active": "b2963005630bfb7f",
   "lastOpenFiles": [
-    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
     "IDATG2202 OS/10.03.2023 Memory management.md",
+    "Windows Copilot stories/The Memory Manager.md",
+    "Windows Copilot stories",
+    "IDATG2202 OS/Pictures for OS/OIG (1).jpg",
+    "IDATG2202 OS/Pictures for OS",
+    "IDATG2202 OS/Pictures for OS/OIG.jpg",
+    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
     "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231002093519.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231002085717.png",
@@ -186,8 +191,6 @@
     "IIKG1001 Cybersikkerhet/Monday 28.08.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925092434.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925094839.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925093621.png",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925092950.png",
     "IIKG1001 Cybersikkerhet/22.09.2023 Weekly assignment.md",
     "IDATG2202 OS/Chapter 4.md",
     "IDATG2102 Algmet/Tuesday 19.09.23.md",
@@ -198,13 +201,11 @@
     "New Text Document.txt",
     "IDATG2202 OS/Tuesday 12.09.2023.md",
     "IDATG2202 OS/Thusday 05.09.2023.md",
-    "IDATG2102 Algmet/Tuesday 05.09.23.md",
     "IDATG2202 OS",
     "Untitled.canvas",
     "IIKG1001 Cybersikkerhet",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber",
     "IDATG2102 AlgMet",
-    "IDATG2202 OS",
-    "IIKG1001 Cyber"
+    "IDATG2202 OS"
   ]
 }
