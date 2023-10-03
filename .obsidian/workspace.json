@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
+                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
+                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
+                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 02.10.23.md"
+                "file": "IDATG2202 OS/10.03.2023 Memory management.md"
               }
             }
           },
@@ -158,15 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ae21057b15268c8",
+  "active": "b2963005630bfb7f",
   "lastOpenFiles": [
+    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
+    "IDATG2202 OS/10.03.2023 Memory management.md",
+    "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231002093519.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231002085717.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231002084726.png",
     "IIKG1001 Cybersikkerhet/Weekly schedule Cyber.md",
-    "IIKG1001 Cybersikkerhet/Monday 02.10.23.md",
     "IIKG1001 Cybersikkerhet/29.09.2023 Weekly assignment.md",
-    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
     "IDATG2102 AlgMet/Heap.md",
     "IDATG2102 AlgMet/Rcrusjon.md",
     "IDATG2102 AlgMet/Algmet schedule.md",
@@ -188,7 +189,6 @@
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925093621.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925092950.png",
     "IIKG1001 Cybersikkerhet/22.09.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230922103833.png",
     "IDATG2202 OS/Chapter 4.md",
     "IDATG2102 Algmet/Tuesday 19.09.23.md",
     "IDATG2202 OS/Terminology.md",
