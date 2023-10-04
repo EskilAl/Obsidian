@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md",
+                "file": "Windows Copilot stories/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IDATG2202 OS/10.03.2023 Memory management.md"
+                "file": "Windows Copilot stories/Untitled.md"
               }
             }
           },
@@ -158,10 +158,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ae21057b15268c8",
+  "active": "b2963005630bfb7f",
   "lastOpenFiles": [
-    "Windows Copilot stories/The Memory Manager.md",
     "IDATG2202 OS/10.03.2023 Memory management.md",
+    "Windows Copilot stories/Untitled.md",
+    "Windows Copilot stories/The Memory Manager.md",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS/OIG (1).jpg",
     "IDATG2202 OS/Pictures for OS",
@@ -200,7 +201,6 @@
     "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
     "New Text Document.txt",
     "IDATG2202 OS/Tuesday 12.09.2023.md",
-    "IDATG2202 OS/Thusday 05.09.2023.md",
     "IDATG2202 OS",
     "Untitled.canvas",
     "IIKG1001 Cybersikkerhet",
