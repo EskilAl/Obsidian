@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Copilot stories/Untitled.md",
+                "file": "Windows Copilot stories/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Copilot stories/Untitled.md",
+                "file": "Windows Copilot stories/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Copilot stories/Untitled.md",
+                "file": "Windows Copilot stories/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Copilot stories/Untitled.md"
+                "file": "Windows Copilot stories/Git.md"
               }
             }
           },
@@ -161,7 +161,7 @@
   "active": "b2963005630bfb7f",
   "lastOpenFiles": [
     "IDATG2202 OS/10.03.2023 Memory management.md",
-    "Windows Copilot stories/Untitled.md",
+    "Windows Copilot stories/Git.md",
     "Windows Copilot stories/The Memory Manager.md",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS/OIG (1).jpg",
