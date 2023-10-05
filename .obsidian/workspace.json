@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "da723e24be31a2a9",
+        "id": "ca9b4221f210cdae",
         "type": "tabs",
         "children": [
           {
-            "id": "b2963005630bfb7f",
+            "id": "58ae20d7f515a28d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Copilot stories/Git.md",
+                "file": "IDATG2102 Algmet/Thursday 05.10.23.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Windows Copilot stories/Git.md",
+                "file": "IDATG2102 Algmet/Thursday 05.10.23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Windows Copilot stories/Git.md",
+                "file": "IDATG2102 Algmet/Thursday 05.10.23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Windows Copilot stories/Git.md"
+                "file": "IDATG2102 Algmet/Thursday 05.10.23.md"
               }
             }
           },
@@ -158,10 +158,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b2963005630bfb7f",
+  "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
-    "IDATG2202 OS/10.03.2023 Memory management.md",
+    "IDATG2102 AlgMet/Algmet schedule.md",
+    "IDATG2102 AlgMet/Thursday 05.10.23.md",
+    "IDATG2102 Algmet/Thursday 05.10.23.md",
+    "IDATG2102 Algmet/Tuesday 10.10.23.md",
+    "IDATG2102 Algmet/Tuesday 03.10.23.md",
+    "IDATG2102 AlgMet/Tuesday 03.10.23.md",
+    "IDATG2102 AlgMet/Tuesday 10.10.23.md",
     "Windows Copilot stories/Git.md",
+    "IDATG2202 OS/10.03.2023 Memory management.md",
     "Windows Copilot stories/The Memory Manager.md",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS/OIG (1).jpg",
@@ -176,7 +183,6 @@
     "IIKG1001 Cybersikkerhet/29.09.2023 Weekly assignment.md",
     "IDATG2102 AlgMet/Heap.md",
     "IDATG2102 AlgMet/Rcrusjon.md",
-    "IDATG2102 AlgMet/Algmet schedule.md",
     "IDATG2102 AlgMet/Tuesday 19.09.23.md",
     "IDATG2102 AlgMet/Tuesday 05.09.23.md",
     "Div/LAOS (09.26.2023).md",
@@ -194,13 +200,7 @@
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20230925094839.png",
     "IIKG1001 Cybersikkerhet/22.09.2023 Weekly assignment.md",
     "IDATG2202 OS/Chapter 4.md",
-    "IDATG2102 Algmet/Tuesday 19.09.23.md",
-    "IDATG2202 OS/Terminology.md",
-    "IIKG1001 Cybersikkerhet/15.09.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/08.09.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
     "New Text Document.txt",
-    "IDATG2202 OS/Tuesday 12.09.2023.md",
     "IDATG2202 OS",
     "Untitled.canvas",
     "IIKG1001 Cybersikkerhet",
