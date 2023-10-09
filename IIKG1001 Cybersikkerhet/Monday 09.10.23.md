@@ -1,3 +1,32 @@
+- [[#Threats|Threats]]
+	- [[#Threats#What is a threat?|What is a threat?]]
+	- [[#Threats#Types of threat|Types of threat]]
+	- [[#Threats#Threat actors|Threat actors]]
+		- [[#Threat actors#Intention|Intention]]
+		- [[#Threat actors#Capability|Capability]]
+		- [[#Threat actors#Categories|Categories]]
+			- [[#Categories#Organized hackers|Organized hackers]]
+	- [[#Threats#APT|APT]]
+		- [[#APT#Cyber attacks|Cyber attacks]]
+			- [[#Cyber attacks#Passwords|Passwords]]
+			- [[#Cyber attacks#Networks|Networks]]
+	- [[#Threats#Vulnerabilities|Vulnerabilities]]
+		- [[#Vulnerabilities#Definitions|Definitions]]
+		- [[#Vulnerabilities#Heartbleed|Heartbleed]]
+		- [[#Vulnerabilities#What is a vulnerability?|What is a vulnerability?]]
+			- [[#What is a vulnerability?#Timeline|Timeline]]
+			- [[#What is a vulnerability?#How severe is a vulnerability|How severe is a vulnerability]]
+			- [[#What is a vulnerability?#Categories|Categories]]
+		- [[#Vulnerabilities#Reducing vulnerabilities|Reducing vulnerabilities]]
+		- [[#Vulnerabilities#Software security|Software security]]
+			- [[#Software security#Not all errors look alike|Not all errors look alike]]
+			- [[#Software security#Measuring software security|Measuring software security]]
+			- [[#Software security#Architectural Risk analysis|Architectural Risk analysis]]
+				- [[#Architectural Risk analysis#critical steps|critical steps]]
+				- [[#Architectural Risk analysis#Attack models - STRIDE|Attack models - STRIDE]]
+		- [[#Vulnerabilities#Penetration Testing|Penetration Testing]]
+				- [[#Architectural Risk analysis#OWASP Top 10|OWASP Top 10]]
+
 # Threats, vulnerability and software security 
 
 ## Threats 
@@ -258,4 +287,19 @@ Complexity is security's worst enemy
 - Tampering (unauthorized change)
 - Repudiation (denial)
 - Information disclosure
-- 
+- Denial of service
+- Elevation of privileges
+
+#### Penetration Testing
+- Think like an attacker - adversarial thinking
+- Usually performed from external entities
+- Many available tools - lab
+
+
+###### OWASP Top 10
+- Most critical security risks to web applications.
+- New entries, as well as revisited categories.
+
+# Summary  
+*It will not be acceptable to teach someone programming without teaching them about "secure programming" at the same time*
+
