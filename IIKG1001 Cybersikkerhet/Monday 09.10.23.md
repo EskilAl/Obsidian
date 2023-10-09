@@ -144,3 +144,23 @@
 -  **Man-In-The-Mobile (MitMo)** - the mobile version
 
 ### Vulnerabilities
+
+#### Definitions 
+- **ISO 27002**
+	- Vulnerability - a weakness of the system, through which a threat can harm an asset
+- **Generally speaking**
+	- An asset is what we're trying to protect.
+	- A threat is what we're trying to protect against
+	- A vulnerability is a weakness or gap in our protection efforts.
+
+Threats are always present, whereas attacks are only
+related to actual events.
+
+#### Heartbleed
+- OpenSSL vulnerability,
+- Associated with heartbeat functionality march 2012
+	- Checks if the message is still on the other end.
+![[Pasted image 20231009090133.png]]
+- Discovered only in April 2014 - unintentional???
+
+![[Pasted image 20231009090233.png]]
