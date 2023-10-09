@@ -195,3 +195,37 @@ Complexity is security's worst enemy
 - Can be environment-dependent
 	- The available effective countermeasures.
 	- Consequences from the vulnerable system.
+
+##### Categories
+- Using Internet services
+	- Physical vulnerabilities
+		- Power outage, cables cut
+		- Unauthorized access, stolen devices
+	-  Human vulnerabilities
+		- Low security awareness among employees
+		- Highly personalized phishing attacks
+- Organizational/procedurial vulnerabilities
+	- Authentication is done through third parties
+		- Certification authorities
+		- Certificates might be misused, creating vulnerabilities
+	- Dependency on power, equipment, network suppliers
+		- Cloud dependency on a small number of providers
+	- Poor routines in terms of security procedures
+- Technical vulnerabilities
+	- Software vulnerabilities
+	- Operating systems
+- Wannacry
+	- Browser vulnerabilities
+	- Network vulnerabilities
+
+#### Reducing vulnerabilities
+- To avoid potential vulnerabilities.
+- Periodic security updates.
+- Performing special procedures to detect vulnerabilities.
+- Special measures for securing connection with third-parties.
+- To minimize consequences 
+- Every entity should have as many privileges as necessary
+- Apply Defense in depth, with more than enough measures
+
+#### Software security
+- Devel
