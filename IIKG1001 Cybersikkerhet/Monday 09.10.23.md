@@ -164,3 +164,34 @@ related to actual events.
 - Discovered only in April 2014 - unintentional???
 
 ![[Pasted image 20231009090233.png]]
+
+#### What is a vulnerability?
+- A vulnerability is a weakness that could compromise the security of an ICT system.
+	- Several definitions define different categories of vulnerabilities
+- Can originate from various stages and aspects of a system
+	- Acquisition, design, implementation, administration, upgrade, use or termination.
+- It also depends on which threat actors we realistically face.
+	- Defining vulnerability as the probability that a threat capability exceeds the resistance capability.
+- Today's advanced threats could potentially be used by less advanced threat actors in the future
+	- Intentions of advanced threat actors may change.
+
+##### Timeline
+![[Pasted image 20231009091832.png]]
+Complexity is security's worst enemy
+- Zero-day: when the system supplier or the like first became aware of the vulnerability
+	- 0-day attack: attacks that exploit such 0-day vulnerabilities
+- Attack surface: sum of everything an attacker can use to influence or extract information from the system
+	- Depends on the starting point
+
+##### How severe is a vulnerability
+-  Common Vulnerability Scoring System (CVSS)
+	- a standard for expressing the severity of vulnerabilities
+	- a numerical score, translated into a qualitative representation (such as low, medium, high, and critical)
+- CVSS gives a baseline score
+	- Based on how easy it is to exploit the vulnerability and the consequences of this for the security level overall
+	- Can be time-dependent
+		- Quality and availability of the attack code through time
+		- Security fixes available
+- Can be environment-dependent
+	- The available effective countermeasures.
+	- Consequences from the vulnerable system.
