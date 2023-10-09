@@ -73,11 +73,46 @@
 - Chaos actors: Not targeting their victims
 	-  Wannacry.
 
-Intention
+#### Intention
 - **Pure curiosity
-- Financially motivated
-	- Extortion of ransom, CEO fraud
-- Politically motivated
-	- Spread a political message, against a specific issue
-- State-motivated
-	- Highest motives and highest privileges
+- **Financially motivated
+	- Extortion of ransom, CEO fraud.
+- **Politically motivated
+	- Spread a political message, against a specific issue.
+- **State-motivated
+	- Highest motives and highest privileges.
+
+#### Capability
+- **Advanced skills
+	- Can develop very advanced tools and create exploits.
+- **Generic, open access skills
+	- Using available, open source tools.
+	- Possible defense mechanisms to detect the tools used.
+- **The gray zone
+	- People with high capabilities choose low-quality tools.
+	- People with low to average capabilities get advanced tools.
+
+#### Categories
+-  **Amateurs**, limited skills, use existing tools to attack.
+	- Script kiddies - just curious, or try to demonstrate their skills.
+-  **Hackers**, break into computers/networks to gain access.
+	- White hats aim to discover weaknesses in the system.
+		- They take prior permission and results are reported to the owner.
+- **Black hats** take advantage of any vulnerability for illegal personal, financial or political gain.
+- **Gray hats** are between white and black hat attackers.
+	- Some may report the vulnerability to the owners, others publish it online so that other attackers can exploit it.
+
+##### Organized hackers
+- Cyber criminals - groups of professional criminals focused on control, power, and wealth.
+	-  Highly sophisticated and organized, cybercrime as a service
+- Hacktivists make political statements to create awareness to issues that are important to them.
+- State-sponsored attackers gather intelligence or commit sabotage on behalf of their government.
+	-  Espionage, sabotage
+	-  Highly trained and well-funded
+	-  Their attacks are focused on specific goals beneficial to their government.
+
+### APT
+- Threat actors.
+- Prober tools and skills to practice a range of (advanced) techniques.
+- Logistics and resources to exercise adaptability and persistence.
+- Choose the attack vector in the easiest way possible.
