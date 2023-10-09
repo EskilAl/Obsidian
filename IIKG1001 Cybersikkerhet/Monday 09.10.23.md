@@ -228,4 +228,34 @@ Complexity is security's worst enemy
 - Apply Defense in depth, with more than enough measures
 
 #### Software security
-- Devel
+- Developing software that continued to "behave" as expected.
+- WannaCry
+- Heartbleed
+
+##### Not all errors look alike
+- Bugs or flaws - implementation vs design.
+- Buffer overflow
+- Design - website / file structure is easy to follow.
+- Essential security is built-in from the start.
+
+##### Measuring software security
+- Easier to measure second - order effect.
+- Who is enveloping safe / secure code.
+- What kind of security activates do they follow.
+- Building Security In Maturity Model (BSIMM)
+
+##### Architectural Risk analysis
+- One of the most important security activates.
+- Begin with an overview of the arc.
+
+###### critical steps
+- Resistant to attack 
+- Ambiguities
+- Vulnerabilities in underlying systems.
+
+###### Attack models - STRIDE
+- Spoofing(pretending to be someone else)
+- Tampering (unauthorized change)
+- Repudiation (denial)
+- Information disclosure
+- 
