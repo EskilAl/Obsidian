@@ -116,3 +116,31 @@
 - Prober tools and skills to practice a range of (advanced) techniques.
 - Logistics and resources to exercise adaptability and persistence.
 - Choose the attack vector in the easiest way possible.
+
+
+#### Cyber attacks 
+##### Passwords 
+-  **Social engineering** - using social skills to convince people to reveal access credentials or other valuable information to an attacker.
+- **Brute force password** attack - guessing a password by trying all combinations of characters and numbers.
+-  **Dictionary attack** - Attempts to narrow the range of possible passwords by using a list of common ones, including attempts based on the target's personal information.
+- **Phishing** - when a malicious party sends a fraudulent email disguised as a legitimate, trusted source
+	- *Spear-phishing*: highly targeted phishing attack
+- **Smishing (Short Message Service phishing)** - phishing using text messaging on mobiles
+	- Criminals impersonate a legitimate source in order to gain trust
+- **Pharming** - impersonation of a legitimate website in an effort to deceive users into entering their credentials.
+-  **Whaling** - a phishing attack that targets high profile targets within an organization
+	- Senior executives, politicians or celebrities.
+
+##### Networks
+- **Sniffing** - online version for eavesdropping
+	- Helps examine all network traffic, even if not addressed to them
+	- Can target a specific protocol, service, or even char. string
+	- Might be used by network administrators for troubleshooting
+-  **Spoofing** - impersonation attack on a trusted relationship between two systems
+	- If two systems accept the authentication accomplished by each other, a logged on user may access the other one
+-  **Man-in-the-middle (MitM) attack** - steal information while intercepting communications between computers
+	- Might also manipulate messages and relay false information
+	- Full control over a device without the user's knowledge
+-  **Man-In-The-Mobile (MitMo)** - the mobile version
+
+### Vulnerabilities
