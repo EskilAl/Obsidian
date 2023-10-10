@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 09.10.23.md",
+                "file": "IDATG2202 OS/Chapter 5.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 09.10.23.md",
+                "file": "IDATG2202 OS/Chapter 5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 09.10.23.md",
+                "file": "IDATG2202 OS/Chapter 5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Monday 09.10.23.md"
+                "file": "IDATG2202 OS/Chapter 5.md"
               }
             }
           },
@@ -158,15 +158,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ae21057b15268c8",
+  "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
+    "IDATG2202 OS/Terminology.md",
+    "IDATG2202 OS/Chapter 5.md",
+    "IIKG1001 Cybersikkerhet/Monday 09.10.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009091832.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009090233.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009090133.png",
     "IIKG1001 Cybersikkerhet/Weekly schedule Cyber.md",
-    "IIKG1001 Cybersikkerhet/Monday 09.10.23.md",
     "IIKG1001 Cybersikkerhet/06.10.2023 Weekly assignment.md",
-    "IDATG2202 OS/Terminology.md",
     "IDATG2102 AlgMet/Algmet schedule.md",
     "IDATG2102 AlgMet/Thursday 05.10.23.md",
     "IDATG2102 Algmet/Thursday 05.10.23.md",
@@ -195,7 +196,6 @@
     "Div/Bilder til div/Pasted image 20230926110242.png",
     "Div/Bilder til div/Pasted image 20230926091111.png",
     "Div/Bilder til div",
-    "Div/Bilder til div/Pasted image 20230926090724.png",
     "Div",
     "IIKG1001 Cybersikkerhet/Monday 25.09.23.md",
     "IIKG1001 Cybersikkerhet/Monday 18.09.23.md",
