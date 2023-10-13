@@ -66,8 +66,51 @@ Use the scan types to complete the following tasks: a. Using the CIDR notation, 
 
 b. Perform a quick scan on one of the VMs in your group or to this lab’s responsible TA’s IP (10.212.168.186). How many hops were performed to reach the target IP, and how long did that take?
 
+`TRACEROUTE (using port 80/tcp)
+`HOP RTT     ADDRESS
+`1   4.27 ms host-192-168-10-1.openstacklocal (192.168.10.1)
+`2   4.20 ms 10.212.168.186
+
 c. Suppose we have an unidentified device on our network that behaves abnormally. We do not know exactly what the device’s IP address is. Which scan type(s) can we use to identify the device? You can use more than one nmap command to identify and analyze the device.
 
-**Task 3. Scanning a Target Device** Our target device has the following IP address: 10.212.168.186. This target runs a service (not ssh) on an unknown port between port 1 and 100. Scan the device to find the following: a. What port number does the service run on? b. What service is it? Figure out what software might be running on this port and its version. c. What operating system does this device use? d. Download the file this service provides. (Hint: use curl or wget)
+1. **Ping Scan (-sn)**:
+    
+    - This is the simplest and fastest scan. It can be used to discover live hosts on the network without scanning open ports.
+    - It helps you identify which IP addresses are active on the network.
+    - Example: `nmap -sn 192.168.1.0/24`
+2. **OS Fingerprinting (-O)**:
+    
+    - This scan type tries to identify the operating system running on the device based on various characteristics.
+    - It can help you determine the type of device based on the OS fingerprint.
+    - Example: `nmap -O [target]`
+3. **Service Version Detection (-sV)**:
+    
+    - This scan attempts to identify the specific services and their versions running on open ports of the target device.
+    - It can give you information about the applications or services the device is running.
+    - Example: `nmap -sV [target]`
+4. **Aggressive Scan (-A)**:
+    
+    - This is a comprehensive scan that includes OS detection, version detection, and script scanning.
+    - It can provide extensive information about the target device.
+    - Example: `nmap -A [target]`
+5. **Full Port Scan (-p-)**:
+    
+    - Scanning all 65,535 ports on a device can help you identify any open ports and services that might not be discovered with a standard port scan.
+    - Example: `nmap -p- [target]`
+6. **Script Scanning (--script)**:
+    
+    - Nmap has a variety of built-in scripts that can be used to gather additional information about a device.
+    - You can use specific scripts to identify services, vulnerabilities, or other characteristics of the device.
+    - Example: `nmap --script=default [target]`
+
+
+**Task 3. Scanning a Target Device** 
+Our target device has the following IP address: 10.212.168.186. This target runs a service (not ssh) on an unknown port between port 1 and 100. Scan the device to find the following: 
+
+a. What port number does the service run on? 
+
+b. What service is it? Figure out what software might be running on this port and its version. 
+
+c. What operating system does this device use? d. Download the file this service provides. (Hint: use curl or wget)
 
 **Task 4 Legality** Some argue that port scanning should be illegal, while others argue that it should be legal. Answer the following questions. a. Why should using Nmap be legal? b. Why should using Nmap be illegal? c. What are your personal thoughts about Nmap’s legality? Write a sentence or two explaining them.
