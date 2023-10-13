@@ -117,6 +117,14 @@ c. What operating system does this device use?
 	Aggressive OS guesses: Linux 3.1 - 3.2 (94%), Linux 4.1 (93%), Linux 3.12 (92%), Linux 2.6.36 - 2.6.39 (91%), Linux 3.10 (91%), Crestron XPanel control system (90%), Linux 2.6.32 - 3.2 (89%), Linux 3.14 (88%), Linux 3.16 (88%), ASUS RT-N56U WAP (Linux 3.4) (87%)
 
 d. Download the file this service provides. (Hint: use curl or wget)
+	wget 
 
 
-**Task 4 Legality** Some argue that port scanning should be illegal, while others argue that it should be legal. Answer the following questions. a. Why should using Nmap be legal? b. Why should using Nmap be illegal? c. What are your personal thoughts about Nmap’s legality? Write a sentence or two explaining them.
+**Task 4 Legality** Some argue that port scanning should be illegal, while others argue that it should be legal. Answer the following questions. 
+
+a. Why should using Nmap be legal? 
+	it provide a good tool to monitor a network and keep it safe.
+b. Why should using Nmap be illegal? 
+	it provide a tool for people who have ill intent to monitor illegally and find 
+c. What are your personal thoughts about Nmap’s legality? Write a sentence or two explaining them.
+i think it it should be legal as it provide a good tool to understand and monitor the network, it's powerful so it has to be used with care. so not everyone should be able to use it without some kind of understanding. so in my opinion it should be legal but not for everyone.      
