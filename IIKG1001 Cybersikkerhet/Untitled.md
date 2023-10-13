@@ -108,9 +108,15 @@ c. Suppose we have an unidentified device on our network that behaves abnormally
 Our target device has the following IP address: 10.212.168.186. This target runs a service (not ssh) on an unknown port between port 1 and 100. Scan the device to find the following: 
 
 a. What port number does the service run on? 
+	80/tcp open  http
 
 b. What service is it? Figure out what software might be running on this port and its version. 
+	80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
 
-c. What operating system does this device use? d. Download the file this service provides. (Hint: use curl or wget)
+c. What operating system does this device use? 
+	Aggressive OS guesses: Linux 3.1 - 3.2 (94%), Linux 4.1 (93%), Linux 3.12 (92%), Linux 2.6.36 - 2.6.39 (91%), Linux 3.10 (91%), Crestron XPanel control system (90%), Linux 2.6.32 - 3.2 (89%), Linux 3.14 (88%), Linux 3.16 (88%), ASUS RT-N56U WAP (Linux 3.4) (87%)
+
+d. Download the file this service provides. (Hint: use curl or wget)
+
 
 **Task 4 Legality** Some argue that port scanning should be illegal, while others argue that it should be legal. Answer the following questions. a. Why should using Nmap be legal? b. Why should using Nmap be illegal? c. What are your personal thoughts about Nmap’s legality? Write a sentence or two explaining them.
