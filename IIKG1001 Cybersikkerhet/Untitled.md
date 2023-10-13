@@ -62,6 +62,8 @@ Explain what the following port states mean:
 
 Use the scan types to complete the following tasks: a. Using the CIDR notation, scan the first 64 IP addresses and see which hosts are up. 
 
+`nmap -v 192.168.10.0-63`
+
 b. Perform a quick scan on one of the VMs in your group or to this lab’s responsible TA’s IP (10.212.168.186). How many hops were performed to reach the target IP, and how long did that take?
 
 c. Suppose we have an unidentified device on our network that behaves abnormally. We do not know exactly what the device’s IP address is. Which scan type(s) can we use to identify the device? You can use more than one nmap command to identify and analyze the device.
