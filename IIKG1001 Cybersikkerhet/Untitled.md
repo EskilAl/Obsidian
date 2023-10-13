@@ -27,16 +27,36 @@ shell
 
 **Task 1. Port States** Find your local IP address and use nmap with it:
 
-shell
+Nmap scan report for 192.168.10.2
+Host is up (0.00056s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap scan report for 192.168.10.3
+Host is up (0.00060s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+53/tcp open  domain
+
+Nmap scan report for host-192-168-10-149.openstacklocal (192.168.10.149)
+Host is up (0.00035s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
 
 `nmap [IP address]`
 
 Explain what the following port states mean:
 
 - open
+	this indicated that nmap where able to establish a connection to the port on the system, this means that the system is actively listening and accepting connections.   
 - closed
+	seeing as it is closed it can indicate that there is a firewall or something blocking the signal to reach the port. 
 - filtered
+	
 - unfiltered
+	
 
 **Task 2. Scan Types** For this task, it is useful to look up the available scan types or the man page. Use the scan types to complete the following tasks: a. Using the CIDR notation, scan the first 64 IP addresses and see which hosts are up. b. Perform a quick scan on one of the VMs in your group or to this lab’s responsible TA’s IP (10.212.168.186). How many hops were performed to reach the target IP, and how long did that take?
 
