@@ -52,13 +52,17 @@ Explain what the following port states mean:
 - open
 	this indicated that nmap where able to establish a connection to the port on the system, this means that the system is actively listening and accepting connections.   
 - closed
-	seeing as it is closed it can indicate that there is a firewall or something blocking the signal to reach the port. 
+	seeing as it is closed it can indicate that there is a firewall or security policy blocking the signal to reach the port. 
 - filtered
-	
+	it means that nmap was unable to determined if the port is open or closed, it does not receive any information back.  
 - unfiltered
-	
+	nmap was able to determined the state of the port and it is neither closed or filtered.
 
-**Task 2. Scan Types** For this task, it is useful to look up the available scan types or the man page. Use the scan types to complete the following tasks: a. Using the CIDR notation, scan the first 64 IP addresses and see which hosts are up. b. Perform a quick scan on one of the VMs in your group or to this lab’s responsible TA’s IP (10.212.168.186). How many hops were performed to reach the target IP, and how long did that take?
+**Task 2. Scan Types** For this task, it is useful to look up the available scan types or the man page. 
+
+Use the scan types to complete the following tasks: a. Using the CIDR notation, scan the first 64 IP addresses and see which hosts are up. 
+
+b. Perform a quick scan on one of the VMs in your group or to this lab’s responsible TA’s IP (10.212.168.186). How many hops were performed to reach the target IP, and how long did that take?
 
 c. Suppose we have an unidentified device on our network that behaves abnormally. We do not know exactly what the device’s IP address is. Which scan type(s) can we use to identify the device? You can use more than one nmap command to identify and analyze the device.
 
