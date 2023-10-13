@@ -111,6 +111,7 @@ a. What port number does the service run on?
 	80/tcp open  http
 
 b. What service is it? Figure out what software might be running on this port and its version. 
+`nmap -p 80 -sV [ip-addres]`
 	80/tcp open  http    Apache httpd 2.4.52 ((Ubuntu))
 
 c. What operating system does this device use? 
