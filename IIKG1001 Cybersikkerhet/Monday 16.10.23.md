@@ -28,4 +28,46 @@ address or URL (Uniform Resource Locator).
 	- How the web servers transfers web pages to the
 clients.
 - HTTP is a **stateless protocol**
-	- Web servers do not retain or store infromation or status about each client for the duration of multiple req
+	- Web servers do not retain or store information or status about each client for the duration of multiple requests. 
+	- Reason: it simplifies webs server design.
+- However, clients' state information are required for some web applications (e.g., online stores or online banks)
+	- Several techniques cab be used to maintain such information.
+	- For example: Cookies
+		• A cookie is small piece of data stored on a user’s computer by the web browser.
+		• It is used to remember users’ status information, browsing activity, and any data entered by users.
+		• Web browsers will automatically include the cookie in all its subsequent requests to the web sever.
+- Non-persistent HTTP connection
+	- Only one object can be sent over a connection.
+		- The connection is then closed.
+	- Downloading multiple objects requires establishing multiple TCP connections.
+	- Used by HTTP 1.0.
+Persistent HTTP connection
+	• Multiple objects can be sent over a single. connection between a client and a server.
+	• Used by HTTP 1.1 and later versions.
+
+## Main problem with HTTP
+- HTTP is **insecure**
+	- All data is sent **Plaintext without any protection.**
+	- **No confidentiality** and **no privacy**
+	- The data might be captured, eavesdropped, and misused by bad guys. 
+
+## Another problem with HTTP
+- Cannot tell if a website is authentic or phishing.
+	- HTTP provides **no mean** to figure it out. No authentication mechanism at all. 
+	- Users might be trapped to enter their personal sensitive information.
+
+## HTTPS 
+- The S in HTTPS stands for “**Secure**”.
+• HTTPS provides **secure communication** over insecure networks.
+	HTTPS = HTTP + TLS
+	• TLS: Transport Layer Security
+• HTTPS provides
+	• Website Authentication
+		• via **Public-key Cryptography (TLS Certificates)**
+	• Data Confidentiality
+		• via **Symmetric Cryptography**
+	• Data Integrity
+		• via **Message Authentication Code**
+
+
+
