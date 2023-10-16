@@ -130,4 +130,21 @@ Persistent HTTP connection
 1. *VPN Client initiation* The user initiates the VPN connection by running VPN client software on his device (computer, smartphone, tablet) by specifying a VPN server to which he wants to connect.
 2. *Establishing a Secure Connection:* A secure tunnel is established between the user's device and the VPN server. This tunnel is encrypted, ensuring that all data transmitted between the user and the server is protected from eavesdropping.
 3. *Data Encryption*: Before the user's data leaves his device, it is encrypted.
-4. *Routing Data to the VP*
+4. *Routing Data to the VPN server:* Encrypted data packets are sent through the secure tunnel to the VPN server.
+5. *Server Decryption:* The VPN server receives the encrypted data and decrypts it, returning it to its original form.
+6. *Anonymization:* When the user's data exits the VPN server, it appears to originate from the server's IP address, rather than the user's IP address, thereby concealing the user's true IP address and location.
+7. *Data Routing to the internet:* The VPN server sends the user's data to its intended destination on the internet. 
+8. *Receiving Data:* As data returns from the internet, it is sent first to the VPN server.
+9. *Encrypting Before Returning to the users:* The VPN server encrypts the data to protect it during the journey back to the user's device.
+10. *Data Reaching Your Device:* The encrypted data packets are sent back to the user's device through the secure tunnel.
+11. *Data Decryption:* Upon reaching the user's device, the data is decrypted, making it accessible and readable to the user.
+
+## How a VPN provides Online Security 
+- Recalled that VPN client software encrypts all users' internet traffic before it reaches the VPN server, VPN provides **online security** even when users use public Wi-Fi networks.![[Pasted image 20231016093151.png]] 
+## How a VPN offers Online Freedom 
+- A VPN can offer users a lot of online freedom.
+- When users connect to a VPN server in certain country, they can access the internet as if they were **physically** in that country.
+- This is useful because **the internet is not freely accessible everywhere.
+	- Some countries censor part of the internet or impose restrictions on social media sites or online streaming services. 
+	- Example:
+		- China's 
