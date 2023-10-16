@@ -92,4 +92,10 @@ Persistent HTTP connection
 ## How does HTTPS work exactly ![[Pasted image 20231016085346.png]]
 
 ## OpenSSL
-- OpenSSL is **an open source software library** that offers a range of cryptog
+- OpenSSL is **an open source software library** that offers a range of cryptographic functions to secure data and communications and supports both SSL and TLS.
+- It is widely used for **implementation secure communication** in various applications, including web servers, email servers, virtual private networks (VPN).
+- What can we do with OpenSSL?
+	- **Securing Websites:** Implementing HTTPS (HTTP Secure) on web servers to encrypt data transmissions between clients and servers.
+	- **Digital Certificates**: Generating and managing digital certificates, which are essential for authenticating the identity of servers and clients in secure communications. 
+	- **Cryptography** Utilizing cryptographic functions for data encryption and decryption.
+	- **Implementing SSL/TLS
