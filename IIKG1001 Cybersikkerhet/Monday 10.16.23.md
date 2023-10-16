@@ -114,3 +114,20 @@ Persistent HTTP connection
 
 ## Differences between SSH and TLS 
 ![[Pasted image 20231016091442.png]]
+
+## Secure File Transfer Protocol (SFTP)
+- it is a network protocol designed by **IETF** (Internet Engineering Task Force) to provide **secure file access, file transfer, and file management**.
+- SFTP uses the **SSH** protocol to authenticate and establish a secure connection for file transfer. With SFTP, both commands and data are encrypted.
+- It is a popular and widely-used protocol transferring important, sensitive, and confidential data and files.
+
+## Virtual Private Network (VPN)
+- A Virtual Private Network (VPN) works by creating **a secure and encrypted connection,** often called **a tunnel**, between a device and a VPN server.
+- This tunnel allows the clients' internet traffic to pass through the VPN server before reaching its final destination on the internet.
+- Clients can get a VPN service from many VPN providers.
+- Each VPN provider provides a user a VPN client software.
+
+## How does a VPN work?
+1. *VPN Client initiation* The user initiates the VPN connection by running VPN client software on his device (computer, smartphone, tablet) by specifying a VPN server to which he wants to connect.
+2. *Establishing a Secure Connection:* A secure tunnel is established between the user's device and the VPN server. This tunnel is encrypted, ensuring that all data transmitted between the user and the server is protected from eavesdropping.
+3. *Data Encryption*: Before the user's data leaves his device, it is encrypted.
+4. *Routing Data to the VP*
