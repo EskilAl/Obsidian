@@ -98,4 +98,19 @@ Persistent HTTP connection
 	- **Securing Websites:** Implementing HTTPS (HTTP Secure) on web servers to encrypt data transmissions between clients and servers.
 	- **Digital Certificates**: Generating and managing digital certificates, which are essential for authenticating the identity of servers and clients in secure communications. 
 	- **Cryptography** Utilizing cryptographic functions for data encryption and decryption.
-	- **Implementing SSL/TLS
+	- **Implementing SSL/TLS:** Supporting SSL and TLS protocols to create secure, encrypted connections in various applications, including web servers, email servers, and VPNs.
+	- **Cross-Platform Secure Communication**: Enabling secure communication in software applications on multiple platforms, including Unix, Linux, Windows, and macOS.
+	- **VPN implementation:** Supporting VPN protocols like OpenVPN, enabling the establishment of secure connections between clients and servers in virtual private networks. 
+
+## Secure socket shell (SSH)
+- known also as **Secure Shell.**
+- Created in 1995 by Tatu Ylonen, a Finnish computer scientist. 
+- SSH is a protocol designed for **secure remote access** and **administration.** 
+- Key features:
+- **Secure remote access:** Users can log in to remote systems and executes commands securely.
+- **Authentication:** SSH uses cryptographic key pairs for user authentication. Only the user with the private key can log in.
+- **Encrypted communication:** SSH encrypts data exchanged between the client and the sever. 
+- **Secure File Transfer**: SSH supports secure file transfers using tools like SCP (Secure Copy Protocol) and SFTP (SSH File Transport Protocol) These allow for the transfer of files between the local and remote system securely.
+
+## Differences between SSH and TLS 
+![[Pasted image 20231016091442.png]]
