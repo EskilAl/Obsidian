@@ -80,6 +80,16 @@ Persistent HTTP connection
 	- The Domain name to which the certificate is issued. 
 	- Info of the issuing CA
 	- Valid dates
-	- **The website's p
+	- **The website's public key**
+	- **The digital signature**, created by the issuing CA, that **vouches for the authenticity of this TLS certificate.
+- if a website has a valid TLS certificate from a trusted CA, it means that the website is **authentic, legitimate,** and **trustable**.
 
+## How HTTPS Provides Data Integrity via MAC
+- Message Authentication Code (MAC) is a **symmetric key cryptographic technique** to verify the authenticity and integrity of a message based on hash functions.
+	- a hash function is a mathematical function that takes an input and returns a fixed-size string of characters (called a hash value or a digest).
+- The sender and receiver must **share a symmetric key in advance.** The key is used for both **generating** and **verifying** MAC values. 
 
+## How does HTTPS work exactly ![[Pasted image 20231016085346.png]]
+
+## OpenSSL
+- OpenSSL is **an open source software library** that offers a range of cryptog
