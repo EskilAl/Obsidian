@@ -1,4 +1,25 @@
 # Secure protocols 
+- [[#Outline|Outline]]
+- [[#World Wide Web (WWW)|World Wide Web (WWW)]]
+- [[#HTTP ()|HTTP ()]]
+- [[#Main problem with HTTP|Main problem with HTTP]]
+- [[#Another problem with HTTP|Another problem with HTTP]]
+- [[#HTTPS|HTTPS]]
+- [[#Transport Layer Security (TLS)|Transport Layer Security (TLS)]]
+- [[#How HTTPS Provide Website Authentication|How HTTPS Provide Website Authentication]]
+- [[#How HTTPS Provides Data Integrity via MAC|How HTTPS Provides Data Integrity via MAC]]
+- [[#How does HTTPS work exactly|How does HTTPS work exactly]]
+- [[#OpenSSL|OpenSSL]]
+- [[#Secure socket shell (SSH)|Secure socket shell (SSH)]]
+- [[#Differences between SSH and TLS|Differences between SSH and TLS]]
+- [[#Secure File Transfer Protocol (SFTP)|Secure File Transfer Protocol (SFTP)]]
+- [[#Virtual Private Network (VPN)|Virtual Private Network (VPN)]]
+- [[#How does a VPN work?|How does a VPN work?]]
+- [[#How a VPN provides Online Security|How a VPN provides Online Security]]
+- [[#How a VPN offers Online Freedom|How a VPN offers Online Freedom]]
+- [[#Some Commonly Used VPN Protocols|Some Commonly Used VPN Protocols]]
+- [[#Summing Up|Summing Up]]
+
 ## Outline
 • World Wide Web (WWW)
 • Hypertext Transfer Protocol (HTTP)
@@ -89,7 +110,8 @@ Persistent HTTP connection
 	- a hash function is a mathematical function that takes an input and returns a fixed-size string of characters (called a hash value or a digest).
 - The sender and receiver must **share a symmetric key in advance.** The key is used for both **generating** and **verifying** MAC values. 
 
-## How does HTTPS work exactly ![[Pasted image 20231016085346.png]]
+## How does HTTPS work exactly 
+![[Pasted image 20231016085346.png]]
 
 ## OpenSSL
 - OpenSSL is **an open source software library** that offers a range of cryptographic functions to secure data and communications and supports both SSL and TLS.
@@ -147,4 +169,30 @@ Persistent HTTP connection
 - This is useful because **the internet is not freely accessible everywhere.
 	- Some countries censor part of the internet or impose restrictions on social media sites or online streaming services. 
 	- Example:
-		- China's 
+		- China's Great Firewall blocks access to foreign websites and apps. Facebook, Google and several of the world's top news sites are all blocked in the country.
+		- VPNs are the most common tools used in China to hop the county's Great Firewall
+		- However, only approved VPNs are allowed.
+		- Some people have already been arrested for selling VPN services in China.
+		- A man was arrested for it in 2017, where he was sentenced to five and a half year in prison and fined US$76,000.
+
+## Some Commonly Used VPN Protocols
+- OpenVPN: OpenVPN is an open-source protocol known for its flexibility and strong security features.
+- *L2TP/IPsec (Layer 2 Tunneling Protocol/Internet Protocol Security)*: L2TP is often used in combination with IPsec for enhanced security.
+• *PPTP (Point-to-Point Tunneling Protocol):* PPTP is one of the earliest VPN protocols and is known for its ease of setup and speed. However, it is considered less secure today due to vulnerabilities, and it's not recommended for sensitive data or highsecurity use cases.
+• *IKEv2/IPsec (Internet Key Exchange version 2/Internet Protocol Security)*: IKEv2 is a modern protocol known for its stability and ability to quickly re-establish connections if they are interrupted.
+• *SSTP (Secure Socket Tunneling Protocol)*: SSTP is a proprietary protocol developed by Microsoft. It is designed to operate over SSL/TLS and can be used on Windows-based systems. It is often considered a secure choice for Windows users.
+• *WireGuard*: WireGuard is a newer, open-source protocol known for its simplicity and efficiency.
+• *SSL/TLS (Secure Sockets Layer/Transport Layer Security)*: SSL and its successor, TLS, are often used for securing web traffic (HTTPS) but can also be used as VPN protocols.
+• *Shadowsocks*: Shadowsocks is a lightweight and open-source protocol designed for circumventing censorship and providing secure communication. It is popular in regions with strict internet censorship.
+
+## Summing Up
+In this lecture, we have learned:
+- WWW, the Web, web pages, URL
+- HTTP: Client-server model, stateless, cookies, persistent and non-persistent connections.
+- HTTPS: The combination of HTTP and TLS.
+- TLS
+	- TLS Certificates: Signed by trusted CAs, used to provide website authenticity.
+	- Message Authentication code
+- Difference between SSH and TLS
+- SFTP
+- VPN: online security, privacy, and freedom. 
