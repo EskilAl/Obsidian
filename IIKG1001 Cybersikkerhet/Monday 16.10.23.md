@@ -69,5 +69,17 @@ Persistent HTTP connection
 	• Data Integrity
 		• via **Message Authentication Code**
 
+## Transport Layer Security (TLS)
+- TLS is a cryptographic protocol designed to provide **communication security** over a computer network.
+- Not only used by WWW, but also used by many other applications such as email, instant messaging, and VoIP. ![[Pasted image 20231016084041.png]]
+
+## How HTTPS Provide Website Authentication
+- HTTPS provides website authentication via **TLS certificates**.
+- TLS certificates are digital certificates used to **authenticate the identify of a web site,** and they are issued by **trusted certificate authorities (CAs).
+- A TLS certificate mainly contains:
+	- The Domain name to which the certificate is issued. 
+	- Info of the issuing CA
+	- Valid dates
+	- **The website's p
 
 
