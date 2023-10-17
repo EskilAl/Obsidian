@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
+                "file": "IDATG2202 OS/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
+                "file": "IDATG2202 OS/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
+                "file": "IDATG2202 OS/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md"
+                "file": "IDATG2202 OS/Untitled.md"
               }
             }
           },
@@ -170,8 +170,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58ae20d7f515a28d",
+  "active": "4ae21057b15268c8",
   "lastOpenFiles": [
+    "IDATG2202 OS/10.03.2023 Memory management.md",
+    "IDATG2202 OS/Untitled.md",
+    "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
+    "IDATG2202 OS/Terminology.md",
+    "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
     "IIKG1001 Cybersikkerhet/Weekly schedule Cyber.md",
     "IIKG1001 Cybersikkerhet/Lectures/Monday 09.25.23.md",
     "IIKG1001 Cybersikkerhet/Cyber and network terminology.md",
@@ -181,7 +186,6 @@
     "IIKG1001 Cybersikkerhet/Lectures/Monday 10.02.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231016091442.png",
     "IIKG1001 Cybersikkerhet/WeeklyAssign",
-    "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231016093151.png",
     "IIKG1001 Cybersikkerhet/Lectures/Monday 10.09.23.md",
     "IIKG1001 Cybersikkerhet/Lectures/Wednesday 09.13.23.md",
@@ -199,13 +203,10 @@
     "IDATG2102 AlgMet/Heap.md",
     "IDATG2102 AlgMet/Algmet schedule.md",
     "IDATG2202 OS/Chapter 5.md",
-    "IDATG2202 OS/Terminology.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009091832.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009090233.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231009090133.png",
     "IDATG2102 AlgMet/Thursday 05.10.23.md",
-    "IDATG2102 Algmet/Thursday 05.10.23.md",
-    "IDATG2102 Algmet/Tuesday 10.10.23.md",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS/OIG (1).jpg",
     "IDATG2202 OS/Pictures for OS",
