@@ -136,5 +136,52 @@ Technical definition
 		- The job of the IDS is merely to detect, log and report.
 	- The scanning process creates latency
 		- Usually placed offline, separate from regular network traffic.
-		- Data is copied by a switch and then forwarded to the IDS
-	. IDS can be installed on top of a host operating system
+		- Data is copied by a switch and then forwarded to the IDS.
+	- IDS can be installed on top of a host operating system.
+- **Intrusion Prevention System (IPS)
+	- Able to block/deny traffic based on a rule or signature match.
+	- Example: Snort.
+		- Commercial version, Cisco's Sourcefire.
+	- Features
+		- Perform real-time traffic and port analysis,
+		- Logging, content searching and matching,
+		- Can detect probes, attacks, and port scans.
+		- Integrates with reporting, performance and log analysis tools.
+- **Others
+	- Security Information and Event Management (SIEM)
+		- Software that collects and analyzes security alerts, logs and other real time and historical data from security devices on the network
+- **Data Loss Prevention (DLP) Software
+	- Software or hardware system designed to stop sensitive data from being stolen from or escaping a network.
+	- May focus on file access authorization, data exchange, data copying, user activity monitoring, and more.
+	- Designed to monitor and protect data in all states:
+- data in-use, data in-motion and data at-rest.
+
+#### A Continuous Learning Framework
+- In 2016, Gartner released a security model
+	- based on four key principles that continuously inform one another to create a proactive process for securing applications.
+- This approach does not focus on one specific threat; it's a mindset that allows IT to keep evolving along with threats.
+- It starts with Prevent and completes with trying to Predict.
+
+#### The security Playbook
+- Collection of repeatable queries (reports) against security event data sources that lead to incident detection and response
+- Used to accomplish following actions
+	- Detect malware infected machines.
+	- Detect suspicious network activity.
+	- Detect irregular authentication attempts.
+	- Describe and understand inbound and outbound traffic.
+	- Provide summary information (trends, statistics, and counts)
+	- Provide usable and quick access to statistics and metrics.
+	- Correlate events across all relevant data sources.
+
+#### Building for the future
+- Computer Security Incident Response Team (CSIRT)
+	- Receive, review, and respond to security incident reports
+		- US-CERT
+		- APCERT
+		- Asia Pacific Computer Emergency Response Team
+		- FiRST
+		- CERT-EU
+		- UNITED STATES COUPUTER EMERGENCY READINESS TEAM
+
+- Primary mission - help ensure company, system, and data preservation by performing comprehensive investigations into computer security incidents
+	- NORCERT
