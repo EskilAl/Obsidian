@@ -105,4 +105,36 @@ Technical definition
 #### Chasing the threats
 - **Cyber Kill Chain
   ![[Pasted image 20231023091530.png]]
-  
+- **Stages
+	- Reconnaissance - gathering information about the target
+	- Weaponization - creating the exploit and malicious payload
+	- Delivery - sending the exploit and malicious payload
+	- Exploitation - The exploit is executed
+	- Installation - Malware and backdoors are installed
+	- Command and Control - Remote control of the target
+	- Action - information theft or additional attacks on other devices from within the network
+- **Important questions
+	- What are the attack indicators at each stage of the Kill Chain?
+	- Which security tools are needed to detect the attack indicators at each of the stages?
+- Are there gaps in the company's ability to detect an attack?
+**Increasing efforts and costs after each stage.
+
+#### Behavioral approach 
+- **Behavior-based security
+	- A threat detection form that uses informational context to detect anomalies in the network.
+		- Not relying on known malicious signatures
+	- Involves capturing and analyzing the flow of communication between a network user and a local, or remote destination.
+		- Reveal context and patterns of behavior
+		- Discover attack presence by a change from normal behavior
+	- Honeypots, behavior-based detection tools
+		- Lure the attacker in by appealing to his predicted behavior
+		- When inside, the network administrator use the captured information to gain more knowledge and build a better defense.
+- **Intrusion Detection System (IDS)
+	- A dedicated network device, or a single tool in a server or firewall that scans data, looking for malicious traffic.
+		- IDS will log the detection and alert the network administrator.
+	- It does not take action
+		- The job of the IDS is merely to detect, log and report.
+	- The scanning process creates latency
+		- Usually placed offline, separate from regular network traffic.
+		- Data is copied by a switch and then forwarded to the IDS
+	. IDS can be installed on top of a host operating system
