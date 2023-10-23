@@ -101,3 +101,8 @@ Technical definition
 	- Should not be done on public servers on the Internet or on acompany network without permission.
 - Zenmap
 	- Includes Nmap, a port-scanning tool.
+
+#### Chasing the threats
+- **Cyber Kill Chain
+  ![[Pasted image 20231023091530.png]]
+  
