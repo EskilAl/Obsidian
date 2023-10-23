@@ -25,9 +25,37 @@ Technical definition
 - **Organizational culture 
 	- Foundational, unquestioned assumptions that define organization's goals and products.
 	- A powerful unifying force that restrains political conflict and promotes common understanding.
-	- Example: University life
-		- Professors know more than students
-		- The reason students attend college is to learn
-- Classes follow a regular schedule
-. Organizational culture vs new technologies/systems
-- Technology is often stalled while the culture slowly adjusts
+	- *Example: University life
+		- Professors know more than students.
+		- The reason students attend college is to learn.
+		- Classes follow a regular schedule.
+	- Organizational culture vs new technologies/systems.
+		- Technology is often stalled while the culture slowly adjusts.
+- **Organizational Environment
+	- A reciprocal relationship
+	- Organizations are open to, and dependent on, the social and physical environment
+	- Organizations can influence their environments
+	- Environmental vs organizational change
+		- 10% of the Fortune 500 companies from 1919 do exist today
+- Organizational Structures
+![[Pasted image 20231023085140.png]]
+
+#### Competitive advantage 
+- These firms have a competitive advantage
+	- Access to special resources, that the others do not
+	- Able to use common resources more efficiently
+- Higher revenue growth, profitability or productivity
+*How do organizations achieve competitive advantage?
+
+**Competitive strategies
+- Low-cost leadership
+	- Achieving lowest operational costs and prices
+		- Walmart and its inventory replenishment system
+- Product differentiation
+	- Enable new products/services or improve convenience for existing ones to the customers > Amazon 1-click shopping.
+- Focus on market niche
+	- Enable a specific market focus, serve to that market better
+- Connect better with customers and suppliers.
+
+#### Protecting the organization
+
