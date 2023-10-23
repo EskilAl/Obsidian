@@ -48,14 +48,56 @@ Technical definition
 *How do organizations achieve competitive advantage?
 
 **Competitive strategies
-- Low-cost leadership
+- **Low-cost leadership
 	- Achieving lowest operational costs and prices
 		- Walmart and its inventory replenishment system
-- Product differentiation
+- **Product differentiation
 	- Enable new products/services or improve convenience for existing ones to the customers > Amazon 1-click shopping.
-- Focus on market niche
+- **Focus on market niche
 	- Enable a specific market focus, serve to that market better
-- Connect better with customers and suppliers.
+- **Connect better with customers and suppliers.
 
 #### Protecting the organization
+- **To protect against every cyberattack is not feasible
+	- The expertise needed can be expensive
+	- Attackers will always find new ways to target networks.
+	- The priority will be how quickly the security team can respond
+- **Consequences.
+	- Vandalism.
+		- Posting untrue information.
+	- Reputation ruined.
+	- Revenue lost.
+	- Information lost or theft.
+	- Leaked confidential documents, trade secrets and IP.
+- **Total costs are difficult to access.
 
+#### Security appliances and tools 
+- **No single security technology will solve all security needs
+	- A whole variety of tools and appliances to implement
+	- All security appliances and tools need to work together
+		- Most effective when they are part of a system
+- **Categories of security appliances
+	- Routers
+	- Firewalls
+	- Intrusion Prevention Systems
+	- Virtual Private Networks
+	- Antivirus/Antimalware
+	- Other devices
+		- web & email, access control, decryption, management system
+- **Firewalls
+	- · Firewall - designed to control, or filter communications that are allowed in or out a device or network
+ ![[Pasted image 20231023090446.png]]
+- **Two main categories
+	- Host-based firewall - installed on a single computer with the purpose of protecting that one computer.
+	- Network-based firewall - stand-alone network device that protects an entire network of computers and all of the host devices there.
+- **Port scanning
+	- Probe a computer, server or any network host for open ports.
+		- Each application running on a device has an identifier.
+			- Port number, used on both ends of the transmission.
+- Port-scanning can be used maliciously or harmlessly.
+	- Reconnaissance tool to identify the OS and services running.
+	- Network administrators verify the network security policies.
+- Port-scanning, a precursor to a network attack.
+	- Should not be done on public servers on the Internet or on acompany network without permission.
+- Zenmap
+	- Includes Nmap, a port-scanning tool.
