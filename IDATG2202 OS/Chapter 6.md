@@ -6,4 +6,14 @@
 	3. Programmet.
 
 
-- For at CPU skal kunne kommuniserer med I/O enheter  
+- For at CPU skal kunne kommuniserer med I/O enheter 
+	  1.  Fysisk minne
+	  2. I/O-Porter
+
+- Oprativsystemkjernen må håndtere I/O-enheter generelt, så hvilke deler av oprativsystemet har kode for å prate detaljert med hver type I/O enhet
+	- Driverer/moduler.
+
+- Er du enig i disse påstandende im HDD
+	- HDD har en mekanisk bevegelig arm for hver plateoverflate
+	- Aksesstiden for å lese/skrive data på en HDD er primært bestemt av tiden det tar å lese/skrive på platen.
+- 
