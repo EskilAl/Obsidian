@@ -5,11 +5,23 @@
 
 ### 4. If ~/bin is in the environment variable PATH, it means that:
 ### 5. The assembly code (AT&T/GNU syntax)  mov -4(%rbp), %eax  does the following:
-### 6.  
-### 7.
-### 8. 
-### 9.
-### 10. 
+### 6. The relationship between commands, system calls and instructions is: 
+### 7. What is it called when a write operation is not completed until data has been written to both cache and internal memory?
+### 8.  What will be printed on the screen (in the terminal window) by the following program (given that it does not fail in any way)?
+```
+main ()  {  
+   int p;  
+   p = fork();  
+   if(p==0) {  
+       printf("Child!");  
+       exec("/usr/bin/gedit")  
+   }  
+   printf("Parent!");  
+   return 0;  
+}
+```
+### 9. Which instructions can be executed in user mode?
+### 10.  Why can't the operating system (OS) execute a normal sequential process (e.g. a standard C program you have written without any use of fork) in parallel on a dualcore CPU?
 ### 11.
 ### 12. 
 ### 13.
