@@ -31,13 +31,20 @@ main ()  {
 ### 17. The purpose of the Translation Lookaside Buffer (TLB) is:
 ### 18.  The term _Working Set_ describes:
 ### 19. What is the typical size of a time slice (time quantum) when using round-robin scheduling?
-### 20. 
-### 21.
-### 22. 
-### 23.
-### 24. 
-### 25.
-### 26. 
+### 20. When we have scheduling with a Multi-Level Feedback Queue with four queues Q3, Q2, Q1 and Q0 (Q3 is the highest priority) and the following situation:
+
+- time slice is 7ms
+- at time 0 process P0 arrives and 1ms later process P1 arrives
+- P0 does I/O every 3ms and the I/O takes 2ms
+- P1 only wants to use the CPU as much as possible and does not do any I/O
+
+In which queue is P1 after 11ms has passed since time 0?
+### 21. With 64KB page size, what is the virtual page number (VPN) in the virtual address  0x8E554C ?
+### 22. A _barrier_ is a synchronization primitive from pthread that:
+### 23. A mutex lock is a variable that:
+### 24. A race condition is when:
+### 25. The most important property of the machine instruction XCHG is:
+### 26. What is _memory-mapped I/O_?
 ### 27.
 ### 28. 
 ### 29.
