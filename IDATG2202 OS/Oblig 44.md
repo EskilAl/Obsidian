@@ -26,11 +26,11 @@ main ()  {
 ### 12. A page frame is located in:
 ### 13. How many pages do you have in a 32-bit (single-level) address space with page size 4KB?
 ### 14. Processes X and Y arrive at time 0, while process Z arrive 3ms later. They all need 3ms of CPU time. They execute on the CPU according to First In First Out (FIFO):
-### 15.
-### 16. 
-### 17.
-### 18. 
-### 19.
+### 15. Processes X and Y arrive at time 0, while process Z arrive 3ms later. They all need 3ms of CPU time. They execute on the CPU according to First In First Out (FIFO): CPU:   X X X Y Y Y Z Z Z  Time: 0 1 2 3 4 5 6 7 8 9 (in other words, they have all completed execution after 9ms has passed). What is the average turnaround time?
+### 16. Processes X and Y arrive at time 0, while process Z arrive 3ms later. They all need 3ms of CPU time. They execute on the CPU according to First In First Out (FIFO):CPU:   X X X Y Y Y Z Z Z   Time: 0 1 2 3 4 5 6 7 8 9 (in other words, they have all completed execution after 9ms has passed). What is the average response time?
+### 17. The purpose of the Translation Lookaside Buffer (TLB) is:
+### 18.  The term _Working Set_ describes:
+### 19. What is the typical size of a time slice (time quantum) when using round-robin scheduling?
 ### 20. 
 ### 21.
 ### 22. 
