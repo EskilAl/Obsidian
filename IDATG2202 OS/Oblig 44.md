@@ -22,10 +22,10 @@ main ()  {
 ```
 ### 9. Which instructions can be executed in user mode?
 ### 10.  Why can't the operating system (OS) execute a normal sequential process (e.g. a standard C program you have written without any use of fork) in parallel on a dualcore CPU?
-### 11.
-### 12. 
-### 13.
-### 14. 
+### 11. A Minor Page Fault occurs if the page being accessed:
+### 12. A page frame is located in:
+### 13. How many pages do you have in a 32-bit (single-level) address space with page size 4KB?
+### 14. Processes X and Y arrive at time 0, while process Z arrive 3ms later. They all need 3ms of CPU time. They execute on the CPU according to First In First Out (FIFO):
 ### 15.
 ### 16. 
 ### 17.
