@@ -45,7 +45,10 @@ In which queue is P1 after 11ms has passed since time 0?
 ### 24. A race condition is when:
 ### 25. The most important property of the machine instruction XCHG is:
 ### 26. What is _memory-mapped I/O_?
-### 27.
-### 28. 
-### 29.
-### 30. 
+### 27. What is the main purpose of the TRIM instruction?
+### 28. What will be the output of the following code?
+![[Pasted image 20231102124357.png]]
+### 29.When a process/thread counts down on a semaphore that is zero then:
+### 30.  Which lines do you want to place pthread_mutex_lock(&mutex); before and pthread_mutex_unlock(&mutex); after in the following example?
+![[Pasted image 20231102124613.png]]
+### 31. Which of the following properties is unique to each thread?
