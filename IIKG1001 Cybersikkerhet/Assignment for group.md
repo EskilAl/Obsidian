@@ -71,7 +71,7 @@ In this assignment, you will need to demonstrate your practical skills in
 
 3.      (3 points) Show that the user account “John” is successfully created by searching this account name from the /etc/passwd file.
 
-
+`go cd .. and then navigate to etc/ cat the passwd file and see the user there `
 
 4.      (2 points) Show that the default home directory for John is successfully created and show the detailed information of this directory in a long format using the ls command.
 
