@@ -75,13 +75,23 @@ In this assignment, you will need to demonstrate your practical skills in
 
 4.      (2 points) Show that the default home directory for John is successfully created and show the detailed information of this directory in a long format using the ls command.
 
+`Navigate to the home directory, you can also just login and then  us ls -la or you can use ls -ld /home/John`
+
 5.      (3 points) Create a secure password for John using the passwd command.
+
+`passwd John type a safe password that is hard to hack, like 10 letters lover uper case, §§§§!!! makrings and stuff`
 
 6.      (6 points) On the “uclient” VM, change your identity from “ubuntu” to “John” and to use John’s environment. After that, show John’s current working directory and John’s uid to the TAs.
 
+`to change user you can just type su John, prob have to type the password you just made, so remember it.`
+
 7.      (10 points) Keep your identify as John. Create a RSA key pair for John using OpenSSL.
 
+`ssh-keygen, and rsa is default it is saved under home/.ssh`
+
 8.      (2 points) Show the TAs where the key pair can be found.
+
+`it can be found under home/.ssh`
 
 9.      (2 points) Switch to the “server” VM. Show the private IP address of the “server” VM using the ip command.
 
