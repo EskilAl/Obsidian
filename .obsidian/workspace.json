@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/11.10.2023 Weekly assingment.md",
+                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/10.13.2023 Weekly assignment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/11.10.2023 Weekly assingment.md",
+                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/10.13.2023 Weekly assignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/11.10.2023 Weekly assingment.md",
+                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/10.13.2023 Weekly assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/11.10.2023 Weekly assingment.md"
+                "file": "IIKG1001 Cybersikkerhet/WeeklyAssign/10.13.2023 Weekly assignment.md"
               }
             }
           },
@@ -138,9 +138,17 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "8ac8067a1e01e8fe",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -158,10 +166,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58ae20d7f515a28d",
+  "active": "8ac8067a1e01e8fe",
   "lastOpenFiles": [
-    "IDATG2202 OS/Oblig 44.md",
+    "IIKG1001 Cybersikkerhet/Untitled.md",
+    "IDATG2102 AlgMet/Rcrusjon.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/11.10.2023 Weekly assingment.md",
+    "IDATG2202 OS/Oblig 44.md",
     "Pasted image 20231102124613.png",
     "Pasted image 20231102124357.png",
     "IIKG1001 Cybersikkerhet/Monday 23.10.23.md",
@@ -196,8 +206,6 @@
     "IIKG1001 Cybersikkerhet/Lectures/Monday 09.04.23.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/09.29.2023 Weekly assignment.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.06.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/WeeklyAssign/09.22.2023 Weekly assignment.md",
-    "IIKG1001 Cybersikkerhet/WeeklyAssign/09.15.2023 Weekly assignment.md",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS",
     "Div/Bilder til div",
