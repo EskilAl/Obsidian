@@ -139,9 +139,30 @@ After that, you should execute command “sudo service ssh restart” to restart
 
 16.  (8 points) Now use the terminal on the “uclient” VM and use user account “John” to connect to the sftp service on the “server” VM.
 
+````bash
+sftp John@<server-IP-address>
+````
+
 17.  (10 points) Make sure you stay on the “uclient” VM now and terminate the sftp connection that was created in the previous task. After that, switch your identity to John and then create a symmetric key with 128 bits using OpenSSL. Please name the key “sym.key”.
 
+````bash
+sudo su - John
+openssl rand -out sym.key 16
+````
+
 18.  (8 points) Keep being John on the “uclient” VM. Make a text file and use the symmetric key to encrypt the file. Show the contents of the file before and after encryption.
+
+```bash
+echo "This is a sample text file." > plaintext.txt
+```
+
+`cat plaintext.txt
+
+`openssl enc -aes-128-cbc -in plaintext.txt -out ciphertext.enc -kfile sym.key
+`
+`cat ciphertext.enc
+`
+
 
 19.  (10 points) Stay on the “uclient” VM. Use John’s account to upload both “sym.key” and the previously encrypted file to the sftp server. Please tell the TAs where the key and the file will be uploaded to, and who can see them. If you couldn’t upload the key and the file, try to make them work and explain to the TAs how you solve the problem.
 
