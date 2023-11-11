@@ -162,8 +162,6 @@ echo "This is a sample text file." > plaintext.txt
 `
 `cat ciphertext.enc
 `
-
-
 19.  (10 points) Stay on the “uclient” VM. Use John’s account to upload both “sym.key” and the previously encrypted file to the sftp server. Please tell the TAs where the key and the file will be uploaded to, and who can see them. If you couldn’t upload the key and the file, try to make them work and explain to the TAs how you solve the problem.
 
 20.  (7 points) Switch to the “server” VM and use user account “ubuntu”. Try to decrypt the encrypted file uploaded by John using John’s symmetric key. Please show the decrypted file contents to the TAs.
