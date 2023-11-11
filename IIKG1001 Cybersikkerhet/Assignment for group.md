@@ -115,6 +115,10 @@ In this assignment, you will need to demonstrate your practical skills in
 
 14.  (4 points) Keep staying on the “server” VM. Create a user account called “John”, assign the “/sftp” directory to be his home directory, and assign “sftpGroup” to be John’s primary group. Please use only one command to finish this task.
 
+```bash
+sudo useradd -m -d /sftp -g sftpGroup John
+`````
+
 15.  (5 points) Keep staying on the “server” VM. Add the following lines to the end of the /etc/ssh/sshd_config file using nano. Please show the TAs how you do it.
 
        _Match group sftpGroup_
