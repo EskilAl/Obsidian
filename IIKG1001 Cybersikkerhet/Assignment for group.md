@@ -83,7 +83,7 @@ In this assignment, you will need to demonstrate your practical skills in
 
 6.      (6 points) On the “uclient” VM, change your identity from “ubuntu” to “John” and to use John’s environment. After that, show John’s current working directory and John’s uid to the TAs.
 
-`to change user you can just type su John, prob have to type the password you just made, so remember it.`
+`to change user you can just type su John, prob have to type the password you just made, so remember it pwd id.`
 
 7.      (10 points) Keep your identify as John. Create a RSA key pair for John using OpenSSL.
 
