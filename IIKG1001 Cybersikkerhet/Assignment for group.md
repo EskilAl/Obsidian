@@ -95,13 +95,23 @@ In this assignment, you will need to demonstrate your practical skills in
 
 9.      (2 points) Switch to the “server” VM. Show the private IP address of the “server” VM using the ip command.
 
+`use ip a`
+
 10.  (2 points) Show the floating IP address of the “server” VM via the SkyHiGh dashboard.
+
+`point to floating ip adddress on the server`
 
 11.  (2 points) Create a directory called “sftp” under the root directory on the “server” VM.
 
+`just go to the directory and do mkdir sftp`
+
 12.  (4 points) Create a group called “sftpGroup” on the “server” VM using the groupadd command, and then show the TAs that the group is indeed created by searching the group name from the /etc/group file.
 
+`navigate to the etc file and find the group file.`
+
 13.  (4 points) Make sure you stay on the “server ” VM now. Transfer the group ownership of the “/sftp” directory to group “sftpGroup” but keep the user owner the same. After that, show the TAs that the sftpGroup group indeed owns the “/sftp” directory by showing the long format of the “/sftp” directory.
+
+`sudo chown :sftpGroup /sftp`
 
 14.  (4 points) Keep staying on the “server” VM. Create a user account called “John”, assign the “/sftp” directory to be his home directory, and assign “sftpGroup” to be John’s primary group. Please use only one command to finish this task.
 
