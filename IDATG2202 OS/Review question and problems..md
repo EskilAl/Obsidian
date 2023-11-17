@@ -10,11 +10,11 @@
    - it takes the code and compiles so i can run on the selected operating system, the differences is the deferent language models, c is using assembly code that uses machine code, so we are able to read the code to understand what the machine does,     
 
 4. (KEY PROBLEM) Based on the examples of C-code and assembly code we have covered in this chapter, explain what each line in the following assembly code does:
-    01 .text   -> 
-	02 .globl main
-	03 main:
-	04 pushq %rbp
-	05 movq %rsp, %rbp
+    01 .text   -> tells the assembler to switch to text segment 
+	02 .globl main -> tells the assembler the linker beacuse the object files will use it 
+	03 main: -> represent the entry point of the program. where the CPU will begin and execute instructions 
+	04 pushq %rbp -> Save the current value %rbp on the stack
+	05 movq %rsp, %rbp -> 
 	06 movl $0, -4(%rbp)
 	07 jmp .L2
 	08 .L3:
