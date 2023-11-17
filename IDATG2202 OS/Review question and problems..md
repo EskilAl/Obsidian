@@ -94,4 +94,8 @@ int main(int argc, char *argv[]) {
      
 2. Briefly describe the difference between synchronous and asynchronous interrupts.
    - synchronous -> Synchronous means that it happens as a consequence of an instruction
-   - asynchronous ->
+   - asynchronous ->synchronous means it does not happen as a consequence of anything predictable.
+     it just happens because a packet arrived on the network interface, or the user suddenly moved the mouse.
+
+3. (KEY PROBLEM) In chapter five, do Homework (Code) 1 (base your code on p1.c)
+   - 
