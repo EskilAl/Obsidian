@@ -55,4 +55,15 @@
    - 1. **Virtualizes** physical resources so they become user friendly.  
    - 2. **Manages** the resources of a computer.
 
-2. Briefly describe the differences   
+2. what are the design goals for operating systems?
+   - **Virtualization** create abstractions. 
+   - **Performance** minimize overhead.
+   - **Security** protect/isolate applications. 
+   - **Reliability** stability.
+   - **Energy-efficient** environmentally friendly. 
+
+3. What is batch processing?
+   - A process that has no I/O meaning it has no user interactions.
+
+4. What information do you find in the process list / process table? 
+   - What the OS stores about the process 
