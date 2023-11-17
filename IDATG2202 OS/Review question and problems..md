@@ -90,4 +90,4 @@ int main(int argc, char *argv[]) {
  
 # 3.3 Chapter 3 System Calls
 1. What is the purpose of system calls
-   - 
+   - to give control back to the operating system so a process does not hug alle the processing power all the time. 
