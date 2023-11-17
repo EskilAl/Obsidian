@@ -68,3 +68,26 @@
 4. What information do you find in the process list / process table? 
    - What the OS stores about the process (Processes/task list/table, PCB)
 
+5.
+```
+#include <stdio.h>
+#include <stdlib.h>
+#include "common.h"
+
+int main(int argc, char *argv[]) {
+        if(argc != 3) {
+                fprintf(stderr, "usage: please enter your age and name, Example 42 Erik ");
+        }
+        else {
+                char *str =argv[1];
+                char *str2 =argv[2];
+                printf("Yo, I'm %s\n", str);
+                printf("And i am %s years old\n", str2);
+        }
+        return 0;
+}
+```
+ 
+# 3.3 Chapter 3 System Calls
+1. What is the purpose of system calls
+   - 
