@@ -66,4 +66,5 @@
    - A process that has no I/O meaning it has no user interactions.
 
 4. What information do you find in the process list / process table? 
-   - What the OS stores about the process 
+   - What the OS stores about the process (Processes/task list/table, PCB)
+
