@@ -18,12 +18,34 @@
 	06 movl $0, -4(%rbp) ->moving the immediate value 0 into the memory location that is 4 bytes offset from the %rbp 
 	07 jmp .L2 -> jumpes to .L2 in the code(mby  if)
 	08 .L3: -> a label in memory that the assembler can jump to  
-	09 addl $1, -4(%rbp) -> 
-	10 addl $1, -4(%rbp)
+	09 addl $1, -4(%rbp) -> adds 1 to the 0 in memory 
+	10 addl $1, -4(%rbp) -> adds 1 to the 1 in memory
+	11 .L2: -> label in memory so we can jump to it
+	12 cmpl $9, -4(%rbp) -> sees if the variable in -4 is 9 if not it goes next
+	13 jle .L3 -> jumpes to L3 if its less or eqiual than 9
+	14 movl $0, %eax -> set's the eax register to 0 
+	15 popq %rbp -> restores the original value of the %rbp 
+	16 ret -> returns from the function 
+	````
+	assembly
+	01 .text
+	02 .globl main
+	03 main:
+	04 pushq %rbp       ; Prologue: Save the current value of %rbp on the stack
+	05 movq %rsp, %rbp  ; Set %rsp as the new value of %rbp
+	06 movl $0, -4(%rbp) ; Initialize a local variable to 0
+	07 jmp .L2          ; Jump to label .L2
+
+	08 .L3:
+	09 addl $1, -4(%rbp) ; Increment the local variable by 1
+	10 addl $1, -4(%rbp) ; Increment the local variable by 1 again
+
 	11 .L2:
-	12 cmpl $9, -4(%rbp)
-	13 jle .L3
-	14 movl $0, %eax
-	15 popq %rbp
-	16 ret
+	12 cmpl $9, -4(%rbp) ; Compare the local variable with 9
+	13 jle .L3           ; Jump to label .L3 if less than or equal to 9
+
+	14 movl $0, %eax     ; Set the return value to 0 (returning an integer)
+	15 popq %rbp         ; Epilogue: Restore the original value of %rbp
+	16 ret               ; Return from the function
+```
 
