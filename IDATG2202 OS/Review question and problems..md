@@ -1,4 +1,4 @@
-# Week 1
+#  1.5 Chapter 1 Introduction to Computer Architecture
 1. What is a "Directive" in assembly code?
    - it's an instruction but in assembly. 
 
@@ -48,4 +48,11 @@
 	15 popq %rbp         ; Epilogue: Restore the original value of %rbp
 	16 ret               ; Return from the function
 ```
+````
 
+# 2.5 Chapter 2 Operating Systems and Processes 
+1. What are the two main tasks for the operating system?
+   - 1. **Virtualizes** physical resources so they become user friendly.  
+   - 2. **Manages** the resources of a computer.
+
+2. Briefly describe the differences   
