@@ -14,11 +14,11 @@
 	02 .globl main -> tells the assembler the linker beacuse the object files will use it 
 	03 main: -> represent the entry point of the program. where the CPU will begin and execute instructions 
 	04 pushq %rbp -> Save the current value %rbp on the stack
-	05 movq %rsp, %rbp -> 
-	06 movl $0, -4(%rbp)
-	07 jmp .L2
-	08 .L3:
-	09 addl $1, -4(%rbp)
+	05 movq %rsp, %rbp -> Copies the %rbp to the %rsp 
+	06 movl $0, -4(%rbp) ->moving the immediate value 0 into the memory location that is 4 bytes offset from the %rbp 
+	07 jmp .L2 -> jumpes to .L2 in the code(mby  if)
+	08 .L3: -> a label in memory that the assembler can jump to  
+	09 addl $1, -4(%rbp) -> 
 	10 addl $1, -4(%rbp)
 	11 .L2:
 	12 cmpl $9, -4(%rbp)
