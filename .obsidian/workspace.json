@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Untitled.md",
+                "file": "Cloud/Cloud Technologies Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Untitled.md",
+                "file": "Cloud/Cloud Technologies Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/Untitled.md",
+                "file": "Cloud/Cloud Technologies Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Untitled.md"
+                "file": "Cloud/Cloud Technologies Introduction.md"
               }
             }
           },
@@ -169,7 +169,7 @@
   "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
     "Div/Eksamen ETISK 2023.md",
-    "Cloud/Untitled.md",
+    "Cloud/Cloud Technologies Introduction.md",
     "Cloud",
     "IDATG2202 OS/Review question and problems..md",
     "IDATG2202 OS/Untitled.md",
