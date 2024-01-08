@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Div/Eksamen ETISK 2023.md",
+                "file": "Cloud/Untitled.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Div/Eksamen ETISK 2023.md",
+                "file": "Cloud/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Div/Eksamen ETISK 2023.md",
+                "file": "Cloud/Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Div/Eksamen ETISK 2023.md"
+                "file": "Cloud/Untitled.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
-    "IDATG2202 OS/Review question and problems..md",
     "Div/Eksamen ETISK 2023.md",
+    "Cloud/Untitled.md",
+    "Cloud",
+    "IDATG2202 OS/Review question and problems..md",
     "IDATG2202 OS/Untitled.md",
     "IIKG1001 Cybersikkerhet/Assignment for group.md",
     "IIKG1001 Cybersikkerhet/Monday 23.10.23.md",
@@ -203,7 +205,6 @@
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114330.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114312.png",
     "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
-    "IIKG1001 Cybersikkerhet/Lectures/Monday 09.25.23.md",
     "IIKG1001 Cybersikkerhet/Lectures",
     "IIKG1001 Cybersikkerhet/WeeklyAssign",
     "Windows Copilot stories",
@@ -213,7 +214,6 @@
     "New Text Document.txt",
     "IDATG2202 OS",
     "Untitled.canvas",
-    "IIKG1001 Cybersikkerhet",
-    "IIKG1001 Cybersikkerhet/Pictures for Cyber"
+    "IIKG1001 Cybersikkerhet"
   ]
 }
