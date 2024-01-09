@@ -122,7 +122,26 @@ Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segme
 - Computer vision solution for Automatic Classification of the Fertilized and unfertilized fish eggs.
 - Computer Vision methods to detect the level of gas in a semi-transparent propane canister.
 - Image acquisition and processing for detection of incomplete markings on gas cylinders.
-	
+- Animal tracking.
+- Quality analysis of fruits 
+- Prediction of SSC in kiwifruit using HSI
+- Detection and Classification of Objects in 
+- Automated Salamander Recognition Using Deep Neural Networks and Feature Extraction.
+- An Automatic image-based system for detection wild and stocked fish 
+
+## Image Processing / CV Related jurnals
+- Pattern Recognition
+- Pattern Recognition Letters
+- International Journal of Computer Vision 
+
+## Major conferences 
+- CVPR
+- ECCV
+- ICML
+- BMVC
+- ICCV
+
+
 
 
 
