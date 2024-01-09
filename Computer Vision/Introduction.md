@@ -68,6 +68,25 @@ Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segme
 
 ## Viewpoint variation 
 
+## Illumination
+
+## Scale 
+
+## Shape and deformations
+
+## Motion 
+
+## Context 
+
+## image segmentation 
+
+## Image classification 
+
+# Computer Vision Vs Human Vision
+- Studied brain of cat
+- Electrodes attached in the back of the cat brain
+- Observed the primary visual cortex of cat brain 
+- Recorded electrical activity from individial neurons in
 
 
 
