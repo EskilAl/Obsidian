@@ -110,7 +110,19 @@ Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segme
 - Special effects, shape acquisitor
 - Computer vision for sports
 - smart / autonomous vehicles 
-- 
+- Tracing liver surgery 
+- Image Guided surgery 
+
+# Course Projects 
+
+- Comparison of implanted tracking algorithms.
+- Fish biometrics
+- Digit Recognizer 
+- Caracter detection and recognition withing video games
+- Computer vision solution for Automatic Classification of the Fertilized and unfertilized fish eggs.
+- Computer Vision methods to detect the level of gas in a semi-transparent propane canister.
+- Image acquisition and processing for detection of incomplete markings on gas cylinders.
+	
 
 
 
