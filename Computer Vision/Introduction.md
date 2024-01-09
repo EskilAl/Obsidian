@@ -52,3 +52,23 @@ Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segme
 9. Segmentation 
 10. Classification 
 
+
+# What are the challanges in computer vison
+
+## cat?
+- Images are Numbers
+	- How to classify this image as a cat?
+	- What features useful to identify this as a cat?
+
+## pose variability
+
+## interclass variability
+
+## occlusion 
+
+## Viewpoint variation 
+
+
+
+
+
