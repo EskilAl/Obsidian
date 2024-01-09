@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cloud/Cloud Technologies Introduction.md",
+                "file": "Computer Vision/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cloud/Cloud Technologies Introduction.md",
+                "file": "Computer Vision/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cloud/Cloud Technologies Introduction.md",
+                "file": "Computer Vision/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cloud/Cloud Technologies Introduction.md"
+                "file": "Computer Vision/Introduction.md"
               }
             }
           },
@@ -168,8 +168,10 @@
   },
   "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
-    "Div/Eksamen ETISK 2023.md",
     "Cloud/Cloud Technologies Introduction.md",
+    "Computer Vision/Introduction.md",
+    "Computer Vision",
+    "Div/Eksamen ETISK 2023.md",
     "Cloud",
     "IDATG2202 OS/Review question and problems..md",
     "IDATG2202 OS/Untitled.md",
@@ -204,7 +206,6 @@
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114341.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114330.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114312.png",
-    "IIKG1001 Cybersikkerhet/Lectures/Monday 10.16.23.md",
     "IIKG1001 Cybersikkerhet/Lectures",
     "IIKG1001 Cybersikkerhet/WeeklyAssign",
     "Windows Copilot stories",
@@ -213,7 +214,6 @@
     "Div",
     "New Text Document.txt",
     "IDATG2202 OS",
-    "Untitled.canvas",
-    "IIKG1001 Cybersikkerhet"
+    "Untitled.canvas"
   ]
 }
