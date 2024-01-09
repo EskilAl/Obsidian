@@ -39,5 +39,16 @@
 
 Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segmentation -> High-level processing -> output -> Application 
 
-# Fundamental 
+# Fundamental Steps in Digital Images Processing / CV
+
+1. Image acquisition
+2. Colour image processing
+3. Multimodal imaging 
+4. Compression
+5. Filtering and enhancement
+6. Morphological operations
+7. Feature extraction
+8. Restoration 
+9. Segmentation 
+10. Classification 
 
