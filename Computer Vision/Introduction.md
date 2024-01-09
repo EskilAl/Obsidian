@@ -86,8 +86,31 @@ Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segme
 - Studied brain of cat
 - Electrodes attached in the back of the cat brain
 - Observed the primary visual cortex of cat brain 
-- Recorded electrical activity from individial neurons in
+- Recorded electrical activity from individual neurons in the brains of cats
+- **Simple cells**
+	- Response to light 
 
+## "Mimic the way the brain works"
+......
+
+# Block world
+- Larry Roberts, 1963
+- Work on a visual system that could divide picures into "likely objects" likely bacground areas, and chaos. This was the first application of artificial intelligence 
+
+# Machine learning of Computer vision 
+- Sample decision tree #1 
+- Simple decision tree #2
+
+
+## Face recognition 
+
+## Application areas
+- OCR
+- Face recognition 
+- Special effects, shape acquisitor
+- Computer vision for sports
+- smart / autonomous vehicles 
+- 
 
 
 
