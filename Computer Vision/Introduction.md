@@ -23,5 +23,21 @@
 	- Challenges are different in each case.
 - But huge progress has been made in the last years: what us i
 
-- Aims to offer a similar, if not better, capability to a machine or computer, Computer Vision is concerned with the automatic extraction, analysis and understanding of useful information from a singel image or a sequence of images. 
+- Aims to offer a similar, if not better, capability to a **machine** or **computer**, **Computer Vision** is concerned with the automatic extraction, analysis and understanding of useful information from a singe image or a sequence of images. 
+
+# Computer vision and nearby fields 
+- Computer graphics: models to images
+- Computational photography images to images 
+- Computer vision: images to models
+
+# Components of a computer vision system 
+
+- Scene interpretation -> Computer -> Lighting 
+
+
+# Computer Vision pipeline 
+
+Image acquisition -> Pre-Processing -> Feature extraction -> Detection and segmentation -> High-level processing -> output -> Application 
+
+# Fundamental 
 
