@@ -101,7 +101,11 @@ signalc = 720nn to 380 nn I(SIGMA)* R(SIGMA)* Sc(SIGMA) dSIGMA
 
 ## Spectrum 
 - Spectrum describers the amount of light in different wavelengths 
-- Shows how much light is emitted, relfected or transmitted from the target.
+- Shows how much light is emitted, reflected or transmitted from the target.
 - how much of color the light contains 
-- Normal representation of spectrum is a plot intesisity VS Wavelenght
-- Spectral signature is unique for each meterial and cam be used to identify dufferent meterials 
+- Normal representation of spectrum is a plot intensity VS Wavelength
+- Spectral signature is unique for each material and cam be used to identify different materials.
+
+### Spectral range
+200 to 400 is UV
+400 to 780 is VIS
