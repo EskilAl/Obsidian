@@ -74,3 +74,34 @@ signalc = 720nn to 380 nn I(SIGMA)* R(SIGMA)* Sc(SIGMA) dSIGMA
 - Checking temperatures of people 
 
 ### Spectral images 
+- In normal camera we have RGB, 3 different panes red, green and blue.
+- but in a spectral image, we capture up to 100 layers sometime even more.
+
+
+### Computer generated images
+
+
+### Why do we study image formation 
+- Input -> Sensing device -> interpreting device -> bowl, oranges, bananas, lemons, peaches 
+1. Input data
+	1. Images
+	2. Videos
+2. Pre-processing
+
+### Interaction of light-object 
+- Illuminant 
+- Object
+- Detector
+- Diffusion("Dispersal") through media 
+- Reflection - When not viewing a light source directly, light must interact with objects for us to see it 
+- Refraction (apparent bending) through media -longer wavelengths refract less 
+- Diffraction ("bending")
+- Absorption
+
+
+## Spectrum 
+- Spectrum describers the amount of light in different wavelengths 
+- Shows how much light is emitted, relfected or transmitted from the target.
+- how much of color the light contains 
+- Normal representation of spectrum is a plot intesisity VS Wavelenght
+- Spectral signature is unique for each meterial and cam be used to identify dufferent meterials 
