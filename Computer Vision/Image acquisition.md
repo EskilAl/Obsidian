@@ -1,6 +1,6 @@
 # The visible spectrum
 - Near IR<- 700 nm <-> 400 nm
-- Light sources are characterized by their **spectral power disruption** (also reffered to as radiance specrum
+- Light sources are characterized by their **spectral power disruption** (also referred to as radiance spectrum
 - Surfaces that reflect light are characterized by theirs spectral **reflectance 
 - **Radiance** is the total amount of energy that flows from the light source, and usually measured in watts (W)
 
@@ -53,4 +53,24 @@ signalc = 720nn to 380 nn I(SIGMA)* R(SIGMA)* Sc(SIGMA) dSIGMA
 
 
 # What is an Image?
-- A two- dimensional function, f(x,y) where x 
+- A two- dimensional function, **f(x ,y)** where **x** and **y** are spatial (Plane) coordinates, and the amplitude of f at any pair of coordinates **(x ,y)** is called the intensity or gray level of the image at that point. 
+
+
+## The origins of Digital images
+- Initially developed in the newspaper industry's 
+- Space applications in later 1960s
+- Medical imaging in early 1970s 
+
+
+### x Ray images 
+- Circuit boards
+- Chest X-ray 
+
+
+### Ultrasound images
+- Hospitals
+
+### Thermal images
+- Checking temperatures of people 
+
+### Spectral images 
