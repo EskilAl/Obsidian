@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Image acquisition.md",
+                "file": "Database/Week 2 assignment.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Image acquisition.md",
+                "file": "Database/Week 2 assignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Image acquisition.md",
+                "file": "Database/Week 2 assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Image acquisition.md"
+                "file": "Database/Week 2 assignment.md"
               }
             }
           },
@@ -168,10 +168,11 @@
   },
   "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
-    "Computer Vision/Introduction.md",
     "Database/Introduction.md",
-    "Database",
+    "Database/Week 2 assignment.md",
     "Computer Vision/Image acquisition.md",
+    "Computer Vision/Introduction.md",
+    "Database",
     "Cloud/Cloud Technologies Introduction.md",
     "Computer Vision",
     "Div/Eksamen ETISK 2023.md",
@@ -198,7 +199,6 @@
     "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
     "IDATG2202 OS/10.03.2023 Memory management.md",
     "IDATG2202 OS/Thusday 05.09.2023.md",
-    "IDATG2202 OS/Tuesday 12.09.2023.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023084323.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023091530.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023090446.png",
