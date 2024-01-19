@@ -51,12 +51,14 @@ Q11:
 Q12:
 • Decompose this expression: σdealer_id IN ('Gjvk', 'Hmr', 'Lhr')(Πid, make, year, dealer_id(car))?
 • What is the result?
-	- 
+	- it makes a new table with dealer id Gjvk, hmr,lhr and only uses the columns id, make, year and dealer_id in table car
 
 Q13:
 • What relational algebra expression defines a relation containing the ids from the dealer
 relation where the dealer resides in the county with county number 18 or county number
 50?
+	- 
+
 
 Q14:
 • What relational algebra expression defines a relation containing the id, make, model, type,
