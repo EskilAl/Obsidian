@@ -63,12 +63,12 @@ Q14:
 • What relational algebra expression defines a relation containing the id, make, model, type,
 and price from the car relation where the car is either a station wagon or a suv and the
 price is between 300,000 and 450,000?
-	- σtype IN (station wagon, suv)(Πid,make,type,pricr(car))
+	- σtype IN (station wagon, suv)(Πid,make,type,price(car))
 
 Q15:
 • What relational algebra expression defines a relation containing id, make, model, and type
 from the car relation where the car is not an SUV?
-
+- σtype <> suv(Πid,make,type(car))
 
 Q16:
 • What is the result of: Πcity, make, model(σfuel <> 'diesel'(car ⨝dealer_id = dealer.id dealer))?
