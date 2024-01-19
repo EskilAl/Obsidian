@@ -22,13 +22,15 @@ mileage, and price of cars in the car relation?
 
 Q6:
 • What is the result of: σyear < 2010 OR mileage > 50000(car)?
-	- select a car that is older than 2010 or has a higher milage than 50000 in table car.
+	- select a car that is older than 2010 or has a higher milage than 50000 in table car("entire object").
 
 Q7:
 • What is the result of: σfuel <> 'diesel'(car)?
+	- select all fuel that is not equal to diesel in car and receives the entire object in the table. 
 
 Q8:
 • What is the result of: σmake IN ('Mercedes-Benz', 'Audi')(car)?
+	- get's the entire object of a car in the table car with the name of Mercedes-Benz and Audi 
 
 Q9:
 • What relational algebra expression defines a relation containing rows from the car relation
