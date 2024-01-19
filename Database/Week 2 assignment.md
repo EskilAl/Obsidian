@@ -45,12 +45,13 @@ where the car is not an Audi or a Volkswagen
 Q11:
 • Decompose this expression: Πcity(σcounty_no = 34(dealer))?
 • What is the result?
-	-  
+	- It makes a new column with the selected county_no that is 34 and makes a new table, then selects only the row so i end up with all the cities in column county with county number = 34 
 
 
 Q12:
 • Decompose this expression: σdealer_id IN ('Gjvk', 'Hmr', 'Lhr')(Πid, make, year, dealer_id(car))?
 • What is the result?
+	- 
 
 Q13:
 • What relational algebra expression defines a relation containing the ids from the dealer
