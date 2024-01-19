@@ -1,9 +1,9 @@
 Q1:
 • What is the result of: Πname(county)?
-
+it get's the county column names. 
 Q2:
 • What is the result of: Πid, city(dealer)?
-
+it fetches the column id and city in table dealer.
 Q3:
 • What is the result of: Πid, make, model, year(car)?
 
