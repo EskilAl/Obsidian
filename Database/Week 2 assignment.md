@@ -1,22 +1,28 @@
 Q1:
 • What is the result of: Πname(county)?
-it get's the county column names. 
+	- it get's the county column names. 
+
 Q2:
 • What is the result of: Πid, city(dealer)?
-it fetches the column id and city in table dealer.
+	- it fetches the column id and city in table dealer.
+
 Q3:
 • What is the result of: Πid, make, model, year(car)?
+	- it fetches the column id , make, model, year in table car 
 
 Q4:
 • What relational algebra expression defines a relation containing names of dealer cities in the
 dealer relation?
+	- Πcity(dealer) 
 
 Q5:
 • What relation algebra expression defines a relation containing the id, make, type, year,
 mileage, and price of cars in the car relation?
+	-Πid, make, type, year, mileage, price(car)
 
 Q6:
 • What is the result of: σyear < 2010 OR mileage > 50000(car)?
+	- select a car that is older than 2010 or has a higher milage than 50000 in table car.
 
 Q7:
 • What is the result of: σfuel <> 'diesel'(car)?
