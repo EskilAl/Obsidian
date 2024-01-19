@@ -35,14 +35,18 @@ Q8:
 Q9:
 • What relational algebra expression defines a relation containing rows from the car relation
 where the car is either a station wagon or costs no more than 360,000?
+	- σtype IN ('station wagon') OR price <= 360,000(car)
 
 Q10:
 • What relational algebra expression defines a relation containing rows from the car relation
 where the car is not an Audi or a Volkswagen
+	- σmake NOT IN ('Audi', 'Volkswagen')(car)
 
 Q11:
 • Decompose this expression: Πcity(σcounty_no = 34(dealer))?
 • What is the result?
+	-  
+
 
 Q12:
 • Decompose this expression: σdealer_id IN ('Gjvk', 'Hmr', 'Lhr')(Πid, make, year, dealer_id(car))?
