@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Week 2 assignment.md",
+                "file": "Computer Vision/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Week 2 assignment.md",
+                "file": "Computer Vision/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Week 2 assignment.md",
+                "file": "Computer Vision/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Week 2 assignment.md"
+                "file": "Computer Vision/Introduction.md"
               }
             }
           },
@@ -168,12 +168,12 @@
   },
   "active": "58ae20d7f515a28d",
   "lastOpenFiles": [
-    "Database/Introduction.md",
-    "Database/Week 2 assignment.md",
     "Computer Vision/Image acquisition.md",
+    "Cloud/Cloud Technologies Introduction.md",
+    "Database/Week 2 assignment.md",
+    "Database/Introduction.md",
     "Computer Vision/Introduction.md",
     "Database",
-    "Cloud/Cloud Technologies Introduction.md",
     "Computer Vision",
     "Div/Eksamen ETISK 2023.md",
     "Cloud",
