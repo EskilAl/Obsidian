@@ -80,16 +80,20 @@ Q12:
 
 ·         What is a SQL equivalent to: MIN mileage, MAX mileage(car ⨝dealer_id = dealer.id dealer                ⨝county_no = no σname = 'Innlandet'(county))
 
-- 
+- SELECT MIN(car.mileage) AS less, MAX(car.mileage) AS large FROM (car INNER JOIN dealer ON dealer_id = dealer.id INNER JOIN county ON county_no = county.no) WHERE county.name = 'Innlanded'
 
 Q13:
 
 Write a SQL statement that returns the number of dealers that have Volkswagen cars for sale.
 
+- SELECT COUNT(car.id) AS Numbers_of_Volkswagen FROM (car INNER JOIN dealer ON dealer_id = dealer.id) WHERE make = 'Volkswagen'
+
 Q14:
 
 ·         What is a SQL equivalent to:  
 city, make SUM price(car ⨝dealer_id = dealer.id dealer)
+
+
 
 Q15:
 
