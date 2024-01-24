@@ -59,6 +59,7 @@ Q9:
 
 ·         What is a SQL equivalent to:  
 Πcity, make, model(car  ⟖dealer_id = dealer.id dealer)?
+``SELECT dealer.city, car.make, car.model FROM (car RIGHT OUTER JOIN dealer ON dealer_id = dealer.id)
 
 Q10:
 
@@ -66,11 +67,14 @@ Q10:
 SELECT city, car.id, make    
 FROM dealer LEFT OUTER JOIN car ON dealer_id = dealer.id  
 WHERE city IN ('Jessheim', 'Elverum', 'Kongsvinger', 'Otta')  
-  
+
+- Πcity, car.id, model(σ(city IN('Jessheim', 'Elverum', 'Kongsvinger', 'Otta')dealer ⟕ car_id = car.id car) 
 
 Q11:
 
 ·         Write a SQL statement that returns county name, city name, model year for cars for sale. Duplicates should be removed. All dealers should be listed, even when there are no cars for sale at the dealer.
+
+- 
 
 Q12:
 
