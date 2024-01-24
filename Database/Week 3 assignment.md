@@ -42,11 +42,12 @@ Q5:
 Q6:
 
 ·       Write a SQL statement that will return the dealer city, id, make, model, age, and average mileage per year of cars for sale in the cities of Gjøvik, Hamar, and Lillehammer. The column showing the age of the car should be named age, the column showing the average mileage should be named yearly_mileage.
-- 
+- ``SELECT dealer.city, dealer.id, car.id, car.model, 2024-car.model_year AS Age, (car.mileage/(2024-car.model_year)) AS yearly_mileage FROM (car INNER JOIN dealer ON dealer_id = dealer.id) WHERE dealer.city IN('Gjøvik','Hamar', 'Lillehammer')
 
 Q7:
 
 ·         Write a SQL statement that returns all information about cars having been used for demo purposes (i.e., the comment includes demo – case insensitive).
+- 
 
 Q8:
 
