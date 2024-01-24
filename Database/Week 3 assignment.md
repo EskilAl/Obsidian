@@ -93,12 +93,13 @@ Q14:
 ·         What is a SQL equivalent to:  
 city, make SUM price(car ⨝dealer_id = dealer.id dealer)
 
-
+- ``SELECT dealer.city, car.make, SUM(car.price) AS Total_Price FROM (car INNER JOIN dealer ON dealer_id = dealer.id) GROUP BY dealer.city, car.make
 
 Q15:
 
 ·         What is a SQL equivalent to:  
 σSUM price > 750000(city, make SUM price(car ⨝dealer_id = dealer.id dealer))
+
 
   
 
