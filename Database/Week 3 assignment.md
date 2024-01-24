@@ -11,13 +11,13 @@ Given these sample tables:
 Q1:
 
 - What is a SQL equivalent to:   σmodel_year < 2010 OR mileage > 50000(car)?
-	- SELECT 
+	- `SELECT * FROM car WHERE model_year > 2010 OR mileage > 50000` 
 
 Q2:
 
-·         What is a SQL equivalent to:  
-Πid, make, model, type, price(σtype IN ('station wagon', 'suv')  
+·         What is a SQL equivalent to:  Πid, make, model, type, price(σtype IN ('station wagon', 'suv')  
                                  AND price BETWEEN 300000 AND 450000(car))
+- `` 
 
 Q3:
 
