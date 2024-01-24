@@ -17,12 +17,12 @@ Q2:
 
 ·         What is a SQL equivalent to:  Πid, make, model, type, price(σtype IN ('station wagon', 'suv')  
                                  AND price BETWEEN 300000 AND 450000(car))
-- `` 
+- `SELECT id, make, model,type,price FROM car WHERE type IN ('station wagon' , 'suv') AND price BETWEEN 300000 AND 450000` 
 
 Q3:
 
-·         What is a SQL equivalent to:  
-Πcity, make, model(σfuel <> 'diesel'(car  ⨝dealer_id = dealer.id dealer))?
+·         What is a SQL equivalent to:  Πcity, make, model(σfuel <> 'diesel'(car  ⨝dealer_id = dealer.id dealer))?
+- 
 
 Q4:
 
