@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1db3d18ac343b35f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Database/Week 3 assignment.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Introduction.md",
+                "file": "Database/Week 3 assignment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Introduction.md",
+                "file": "Database/Week 3 assignment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Introduction.md"
+                "file": "Database/Week 3 assignment.md"
               }
             }
           },
@@ -135,7 +148,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -166,8 +181,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "58ae20d7f515a28d",
+  "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
+    "Pasted image 20240124092211.png",
+    "BudgetApplication-2.0-FINAL-jar-with-dependencies.jar",
+    "Database/Week 3 assignment.md",
     "Computer Vision/Image acquisition.md",
     "Cloud/Cloud Technologies Introduction.md",
     "Database/Week 2 assignment.md",
@@ -197,8 +215,6 @@
     "IIKG1001 Cybersikkerhet/Lectures/Wednesday 09.13.23.md",
     "IDATG2202 OS/Chapter 6.md",
     "IDATG2202 OS/09.26.2023 Address spaces and paging.md",
-    "IDATG2202 OS/10.03.2023 Memory management.md",
-    "IDATG2202 OS/Thusday 05.09.2023.md",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023084323.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023091530.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023090446.png",
@@ -213,7 +229,6 @@
     "IDATG2202 OS/Pictures for OS",
     "Div/Bilder til div",
     "Div",
-    "New Text Document.txt",
     "Untitled.canvas"
   ]
 }
