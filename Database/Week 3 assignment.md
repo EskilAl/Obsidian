@@ -37,11 +37,12 @@ Q5:
 
 ·         Write a SQL statement that will return the name of the county, the city of the dealer, the id, model_year, mileage, and comment for Volkswagen Passats where the mileage is no more than 45000. Order the result on name of county, city of dealer, model_year (descending), and mileage (descending).
 
-- 
+- `SELECT name,city, car.id, model_year, mileage, comment FROM (car INNER JOIN dealer ON dealer_id = dealer.id INNER JOIN county ON county_no = county.no) WHERE make ='volkswagen' AND model = 'Passat' AND mileage <= 45000 ORDER BY name,city,model_year DESC, mileage DESC`
 
 Q6:
 
 ·       Write a SQL statement that will return the dealer city, id, make, model, age, and average mileage per year of cars for sale in the cities of Gjøvik, Hamar, and Lillehammer. The column showing the age of the car should be named age, the column showing the average mileage should be named yearly_mileage.
+- 
 
 Q7:
 
