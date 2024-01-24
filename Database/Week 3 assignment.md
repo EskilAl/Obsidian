@@ -47,11 +47,13 @@ Q6:
 Q7:
 
 ·         Write a SQL statement that returns all information about cars having been used for demo purposes (i.e., the comment includes demo – case insensitive).
-- 
+- ``SELECT * FROM `car` WHERE comment LIKE 'Demo%'
 
 Q8:
 
 ·         Write a SQL statement that returns dealer city, make, model, and model_year for cars newer than 2015. Duplicates should be removed.
+- ``SELECT DISTINCT dealer.city, car.make, car.model, car.model_year  FROM (car INNER JOIN dealer ON dealer_id = dealer.id) WHERE car.model_year > 2015
+
 
 Q9:
 
