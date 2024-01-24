@@ -74,11 +74,13 @@ Q11:
 
 ·         Write a SQL statement that returns county name, city name, model year for cars for sale. Duplicates should be removed. All dealers should be listed, even when there are no cars for sale at the dealer.
 
-- 
+- ``SELECT DISTINCT county.name, dealer.city, car.model_year FROM (car Right OUTER JOIN dealer ON dealer_id = dealer.id RIGHT OUTER JOIN county ON county_no = county.no) WHERE 1
 
 Q12:
 
 ·         What is a SQL equivalent to: MIN mileage, MAX mileage(car ⨝dealer_id = dealer.id dealer                ⨝county_no = no σname = 'Innlandet'(county))
+
+- 
 
 Q13:
 
