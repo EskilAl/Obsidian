@@ -100,8 +100,9 @@ Q15:
 ·         What is a SQL equivalent to:  
 σSUM price > 750000(city, make SUM price(car ⨝dealer_id = dealer.id dealer))
 
+- ``SELECT dealer.city, car.make, SUM(car.price) AS Total_Price FROM(car INNER JOIN dealer ON dealer_id = dealer.id) GROUP BY dealer.city, car.make HAVING SUM(car.price) > 75000
 
-  
+
 
 Q16:
 
@@ -110,9 +111,13 @@ SELECT fuel, AVG(price)
 FROM car  
 GROUP BY fuel
 
+``Πfuel AVG(price)(car) 
+
 Q17:
 
 ·         Write a SQL statement that returns the number of cars for each combination of make and fuel. Order the results on number of cars in descending order, then make and fuel in alphabetic order.
+
+- 
 
 Q18:
 
