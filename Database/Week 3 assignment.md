@@ -142,4 +142,4 @@ Q21:
 
 ·         Write a SQL statement that lists the number of dealers per county, but only for the counties having more than average number of dealers among them.
 
-- 
+- ``
