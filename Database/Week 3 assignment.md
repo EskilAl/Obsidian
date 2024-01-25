@@ -123,12 +123,14 @@ Q18:
 
 ·         Write a SQL statement that returns the number of cars of each make for sale in each county, but only for makes for which there are more than two cars for sale in that county.
 
-- 
+- ``SELECT car.make, COUNT(car.make) AS numbers_of_cars, county.name FROM (car INNER JOIN dealer ON dealer_id = dealer.id INNER JOIN county ON county_no = county.no) GROUP BY car.make, county.name HAVING COUNT(car.make) > 2
 
 Q19:
 
 ·         What is a SQL equivalent to:  
 Πcity, make(dealer ⟕dealer_id = dealer.id σmodel_year IN (2019, 2020)(car)
+
+ - 
 
 Q20:
 
