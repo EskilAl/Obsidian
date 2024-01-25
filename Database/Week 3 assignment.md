@@ -123,6 +123,8 @@ Q18:
 
 ·         Write a SQL statement that returns the number of cars of each make for sale in each county, but only for makes for which there are more than two cars for sale in that county.
 
+- 
+
 Q19:
 
 ·         What is a SQL equivalent to:  
