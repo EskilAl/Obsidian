@@ -130,12 +130,16 @@ Q19:
 ·         What is a SQL equivalent to:  
 Πcity, make(dealer ⟕dealer_id = dealer.id σmodel_year IN (2019, 2020)(car)
 
- - 
+ - ``SELECT dealer.city, car.make, car.model_year IN (2019,2020) AS model_year FROM (car LEFT OUTER JOIN dealer ON dealer_id = dealer.id) WHERE car.model_year IN(2019,2020)
 
 Q20:
 
 ·         Write a SQL statement that lists the counties that don't have Volkswagen Passat cars.
 
+	-SELECT county.name,car.make, car.model FROM (car INNER JOIN dealer ON dealer_id = dealer.id INNER JOIN county ON county_no = county.no) WHERE car.model NOT IN ('Volkswagen', 'Passat') GROUP BY county.name,car.make
+
 Q21:
 
 ·         Write a SQL statement that lists the number of dealers per county, but only for the counties having more than average number of dealers among them.
+
+- 
