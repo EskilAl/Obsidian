@@ -117,7 +117,7 @@ Q17:
 
 ·         Write a SQL statement that returns the number of cars for each combination of make and fuel. Order the results on number of cars in descending order, then make and fuel in alphabetic order.
 
-- 
+- ``SELECT car.make, car.fuel, COUNT(make) as combs FROM car GROUP BY make, fuel ORDER BY combs DESC ,make, fuel
 
 Q18:
 
