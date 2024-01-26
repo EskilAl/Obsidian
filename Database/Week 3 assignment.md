@@ -33,8 +33,6 @@ WHERE comment IS NOT NULL
 
 - Πid,make,model,model_year,comment(σcomment IS NOT NULL(car))  
 
-- SOLUTION Πcity(dealer)
-
 Q5:
 
 ·         Write a SQL statement that will return the name of the county, the city of the dealer, the id, model_year, mileage, and comment for Volkswagen Passats where the mileage is no more than 45000. Order the result on name of county, city of dealer, model_year (descending), and mileage (descending).
@@ -144,4 +142,4 @@ Q21:
 
 ·         Write a SQL statement that lists the number of dealers per county, but only for the counties having more than average number of dealers among them.
 
-- ``
+- 
