@@ -15,10 +15,13 @@ than $10000.
 # Part 2 - SQL Queries:
 Write a SQL command for the following:
 • Q1: Retrieve the customers who are not living in “Gjøvik” (Returns 9 records)
-IDATG2204 – Database Modeling and Database Systems
+
+- ``SELECT * FROM `customer` WHERE customer.City <> 'Gjøvik' 
 
 • Q2: Retrieve the customers who have their email address under the Norwegian internet
 domain (.no) (Returns 9 records)
+
+- 
 
 • Q3: Retrieve the information of loans given to the customers in each branch who have
 loan period 3 years. (Returns 8 records)

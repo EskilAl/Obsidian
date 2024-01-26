@@ -142,4 +142,27 @@ Q21:
 
 ·         Write a SQL statement that lists the number of dealers per county, but only for the counties having more than average number of dealers among them.
 
-- 
+- ````
+```SELECT
+    county.name,
+    COUNT(dealer.city) AS group_count
+FROM
+    county
+LEFT JOIN dealer ON county.no = dealer.county_no
+GROUP BY
+    county.name
+HAVING
+    COUNT(dealer.city) >(
+    SELECT
+        AVG(city_count)
+    FROM
+        (
+        SELECT
+            COUNT(dealer.city) AS city_count
+        FROM
+            dealer
+        GROUP BY
+            county_no
+    ) AS city_counts
+)`
+
