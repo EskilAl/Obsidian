@@ -81,6 +81,18 @@ o Balance=$1000
 o Opening_date= 2021-01-18
 o Status= Inactive
 
+- ```
+```
+INSERT INTO customer (Customer_id, Name, City, Address, Postal_code, Home_Phone, Mobile_phone, Email, Gender, Birth_date)
+VALUES (10016, 'Ryan Ishus','Trondheim', 'Bakkegata 15', '7049', '75432103', '45464783', 'ryan00@realmail.no', 'Male', '1991-01-10');
+
+-- Add a new inactive account for the customer in the specified branch
+INSERT INTO account (Account_number, Balance, Opening_date, Status, Customer_id, Branch_id)
+VALUES ('ac1001', 1000, '2021-01-18', 'Inactive', 10016, 'b2');
+```
+
+
 • Q8: Update the “Status” of account of customer Ryan Ishus to “Active”.
+- 
 
 • Q9: Delete the loans that have a loan period of N
