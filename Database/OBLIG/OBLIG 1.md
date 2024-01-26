@@ -1,17 +1,17 @@
 # Part 1 - Algebra Queries:
 Write relational algebra expressions that will produce a relation containing:
 • Q1: Loan number with loan amount less than $20000.
-- Πloan_number(σloan_amount<20000(Loan))
+-``Πloan_number(σloan_amount<20000(Loan))
 
 • Q2: Customers’ name and email, city, and mobile number with their branch names.
-- Πname,email,city,mobile_number(Costumers ⋈ branch_id = id Branch)
+- ``Πname,email,city,mobile_number(Costumers ⋈ branch_id = id Branch)
 
 • Q3: Retrieve the total amount of transactions per each account.
-- Πaccount_number, total_amount​(σaccount_number, total_amount (Account⋈account_number = acc_number​Transaction))
+- ``Πaccount_number, total_amount​(σaccount_number, total_amount (Account⋈account_number = acc_number​Transaction))
 
 • Q4: Retrieve all the customers having their account in “active” state and balance more
 than $10000.
-- σstate=′active′∧balance>10000​(Customer⋈account_number = acc_number​Account)
+- ``σstate=′active′∧balance>10000​(Customer⋈account_number = acc_number​Account)
 # Part 2 - SQL Queries:
 Write a SQL command for the following:
 • Q1: Retrieve the customers who are not living in “Gjøvik” (Returns 9 records)
@@ -93,6 +93,7 @@ VALUES ('ac1001', 1000, '2021-01-18', 'Inactive', 10016, 'b2');
 
 
 • Q8: Update the “Status” of account of customer Ryan Ishus to “Active”.
-- 
+- ```UPDATE account Status = 'Active' WHERE Account_number = 'ac1001```
 
-• Q9: Delete the loans that have a loan period of N
+• Q9: Delete the loans that have a loan period of NULL
+- ``DELETE FROM loan WHERE Loan_period IS NULL
