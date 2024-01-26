@@ -18,4 +18,12 @@
 - What information do we need on a client to connect to a server?
 
 ## ISO OSI Reference Model & TCP/IP Model 
-- 
+- TCP/ IP MODEL
+	- Application -> Application-specific data -> Service specific protocol(s)
+		- HTTP, FTTP, TELNET, NTP, DHCP, PING
+	- Transport -> Service -> Service endpoints(s)
+		- TCP,UDP
+	 - Network -> Host -> Server address(es)
+		 - IP,ARP,ICMP,IGMP
+	- Network Interface -> Infrastructure -> Establishing Physical connections
+		- Ethernet
