@@ -21,10 +21,12 @@ Write a SQL command for the following:
 • Q2: Retrieve the customers who have their email address under the Norwegian internet
 domain (.no) (Returns 9 records)
 
-- 
+- ``SELECT * FROM `customer` WHERE customer.Email LIKE '%.no'
 
 • Q3: Retrieve the information of loans given to the customers in each branch who have
 loan period 3 years. (Returns 8 records)
+
+- 
 
 • Q4: Retrieve the customers who have not taken any loan. (Returns 2 record)
 

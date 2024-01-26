@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Week 3 assignment.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Week 3 assignment.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Week 3 assignment.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Week 3 assignment.md"
+                "file": "Database/OBLIG/OBLIG 1.md"
               }
             }
           },
@@ -183,14 +183,14 @@
   },
   "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
-    "Database/OBLIG/OBLIG 1.md",
     "Database/Week 3 assignment.md",
+    "Database/Week 2 assignment.md",
+    "Database/OBLIG/OBLIG 1.md",
     "Database/OBLIG",
     "Pasted image 20240124092211.png",
     "BudgetApplication-2.0-FINAL-jar-with-dependencies.jar",
     "Computer Vision/Image acquisition.md",
     "Cloud/Cloud Technologies Introduction.md",
-    "Database/Week 2 assignment.md",
     "Database/Introduction.md",
     "Computer Vision/Introduction.md",
     "Database",
