@@ -53,7 +53,7 @@ o Postal_code: 7049
 o Home_Phone : 75432103
 o Mobile_phone: 45464783
 o Email : ryan00@realmail.no
-o Customer_id: 10016
+o Customer_id: 10016 
 o Gender: Male
 o Birth_date: 1991-01-10
 o Branch: b2
