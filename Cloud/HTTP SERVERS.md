@@ -38,4 +38,14 @@
 - Physical -> Bits
 
 ### Which Protocols do we need to know for web applications?
-- 
+
+## Back To the roots
+- Central web protocol: Hyper Text Transfer Protocol
+- Hyper text?
+- Principles?
+	- Uniform Resource Locator (URL)
+	- Request/response protocol (HTTP)
+		- GET / HHTP/1.1
+		- HOST www.example.com
+	- Document structure
+		- HTML
