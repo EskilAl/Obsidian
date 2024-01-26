@@ -27,3 +27,15 @@
 		 - IP,ARP,ICMP,IGMP
 	- Network Interface -> Infrastructure -> Establishing Physical connections
 		- Ethernet
+
+### ISO Open System Interconnect Model
+- Application -> Data
+- Presentation  -> Data
+- Session -> Data
+- Transport -> Segments
+- Network -> Packets
+- Data Link -> Frames
+- Physical -> Bits
+
+### Which Protocols do we need to know for web applications?
+- 
