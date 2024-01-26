@@ -26,9 +26,11 @@ domain (.no) (Returns 9 records)
 • Q3: Retrieve the information of loans given to the customers in each branch who have
 loan period 3 years. (Returns 8 records)
 
-- 
+- ``SELECT * FROM (branch RIGHT OUTER JOIN loan ON branch.Branch_code = loan.Branch_code) WHERE loan.Loan_period = 3 GROUP BY loan.Loan_number
 
 • Q4: Retrieve the customers who have not taken any loan. (Returns 2 record)
+
+- 
 
 • Q5: Write a SQL query that retrieves top 3 youngest customers who have taken loans.
 (Returns 3 records)
