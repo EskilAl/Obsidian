@@ -18,3 +18,4 @@
 - What information do we need on a client to connect to a server?
 
 ## ISO OSI Reference Model & TCP/IP Model 
+- 
