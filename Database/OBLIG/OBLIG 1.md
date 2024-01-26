@@ -40,7 +40,7 @@ loan period 3 years. (Returns 8 records)
 • Q6: Retrieve the number of transactions and sum of amount for each account during the
 year 2020 (Returns 10 records)
 
-- 
+- ``SELECT depositor.Amount, account.Account_number, depositor.Date FROM (account INNER JOIN depositor ON account.Account_number = depositor.Account_number) WHERE YEAR(depositor.Date) = 2020  ORDER BY depositor.Date DESC
 
 • Q7: Add a new customer with information below then open an inactive account in the
 given branch:
