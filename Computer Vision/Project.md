@@ -28,7 +28,15 @@ Code need to be part of the reports
 ### project work evaluation
 - Quality with respect to information content 
 - Review of existing knowledge 
-- Level of knowledge and understan
+- Level of knowledge and understanding
+- Quality of discussion and explanation
+- Correctness of the results
+- Clarity of presentation and structure
+- Correct and comprehensive citation of all sources 
+
+Deadline 15 April
+
+Base, detect if it's a fish or not a fish. can go next level. 
 
 * ADD sub sections base on the project
 * Flexible to prepare the report in a deferent format
