@@ -1,7 +1,7 @@
 # Part 1 - Algebra Queries:
 Write relational algebra expressions that will produce a relation containing:
 • Q1: Loan number with loan amount less than $20000.
--``Πloan_number(σloan_amount<20000(Loan))
+-  ``Πloan_number(σloan_amount<20000(Loan))
 
 • Q2: Customers’ name and email, city, and mobile number with their branch names.
 - ``Πname,email,city,mobile_number(Costumers ⋈ branch_id = id Branch)
