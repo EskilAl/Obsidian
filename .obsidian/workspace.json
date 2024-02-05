@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Computer Vision/Digital Image Processing- Fundamentals.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Computer Vision/Digital Image Processing- Fundamentals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Computer Vision/Digital Image Processing- Fundamentals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md"
+                "file": "Computer Vision/Digital Image Processing- Fundamentals.md"
               }
             }
           },
@@ -183,6 +183,8 @@
   },
   "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
+    "Database/OBLIG/OBLIG 1.md",
+    "Computer Vision/Digital Image Processing- Fundamentals.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.06.2023 Weekly assignment.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/09.29.2023 Weekly assignment.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.13.2023 Weekly assignment.md",
@@ -191,7 +193,6 @@
     "IIKG1001 Cybersikkerhet/Assignment for group.md",
     "Database/Untitled.md",
     "Computer Vision/Project.md",
-    "Database/OBLIG/OBLIG 1.md",
     "Cloud/HTTP SERVERS.md",
     "Cloud/Cloud Technologies Introduction.md",
     "Database/Week 3 assignment.md",
@@ -214,7 +215,6 @@
     "IDATG2202 OS/Chapter 1.md",
     "IDATG2202 OS/Terminology.md",
     "IDATG2202 OS/Oblig 44.md",
-    "IDATG2102 AlgMet/Rcrusjon.md",
     "Pasted image 20231102124613.png",
     "Pasted image 20231102124357.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023084323.png",
