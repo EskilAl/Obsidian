@@ -38,19 +38,23 @@
 ### image interpolation
 - Interpolation - The process of using known data to estimate values at unknown locations. 
 
+### interpolation methods
+- Adaptive methods
+	- Change depending on what 
+- Non-adaptive algorithms
+
 
 
 ## Pyramids
 - Downsampling (decimation)
 - Upsampling (interplation )
+- Applications
+	- Template matching
+	- Detecting stable points of interest
+	- Image Registration
+	- Compression
+	- Image Blending
 
-
-$$
-\begin{array}{cc}
-a &b \\
-c &d
-\end{array}
-$$
 
 $$
 \begin{array}{cc}
