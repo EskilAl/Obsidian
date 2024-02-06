@@ -39,3 +39,12 @@ Hypothesis: Edge = strong variation of intensity
 ## Correlation and convolution
 - Are two basic operations that can be performed  to extract information from images
 - Almost identical operations
+
+
+## Kernel processing
+- A pixel value is computed from its old value and the values of pixels in its vicinity 
+- More computationally costly operations than simple points processes but much more powerful 
+- What is a kernel
+	- A kernel is a small matrix whose values are called weights
+	- Each kernel has and origin, which is usually on.....
+
