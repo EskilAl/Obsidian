@@ -4,14 +4,14 @@ Write relational algebra expressions that will produce a relation containing:
 -  ``Πloan_number(σloan_amount<20000(Loan))
 
 • Q2: Customers’ name and email, city, and mobile number with their branch names.
-- ``Πname,email,city,mobile_number(Costumers ⋈ branch_id = id Branch)
+- ``Πname,email,city,mobile_number,branch_name(Costumers ⋈ branch_id = id Branch)
 
 • Q3: Retrieve the total amount of transactions per each account.
 - ``Πaccount_number, total_amount​(σaccount_number, total_amount (Account⋈account_number = acc_number​Transaction))
 
 • Q4: Retrieve all the customers having their account in “active” state and balance more
 than $10000.
-- ``σstate=′active′∧balance>10000​(Customer⋈account_number = acc_number​Account)
+- 
 # Part 2 - SQL Queries:
 Write a SQL command for the following:
 • Q1: Retrieve the customers who are not living in “Gjøvik” (Returns 9 records)
