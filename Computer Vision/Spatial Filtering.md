@@ -15,3 +15,16 @@
 - HighPass = hp(x,y) = o(x,y)-lp(x,y)
 - bandpass....
 
+## Image filtering
+- A general tool for processing digital images
+- One of the mostly used operations in image processing
+	- Image Enhancment
+	- Image analysis
+	- Remove or reduce noise
+	- Improve perceived....
+
+Hypothesis: Edge = strong variation of intensity
+
+## How to do this?
+- What is impulse and impulse response?
+- What is Point spred functions?
