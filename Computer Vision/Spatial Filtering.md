@@ -28,3 +28,14 @@ Hypothesis: Edge = strong variation of intensity
 ## How to do this?
 - What is impulse and impulse response?
 - What is Point spred functions?
+
+
+### Point spread function (PSF)
+- The impulse response is often called the point spread function in image processing
+- Describes the response of an imaging system to a point source or point object 
+- The performance of and imaging system can be quantified by calculating ...
+
+
+## Correlation and convolution
+- Are two basic operations that can be performed  to extract information from images
+- Almost identical operations
