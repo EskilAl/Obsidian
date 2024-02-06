@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Spatial Filtering.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Vision/Spatial Filtering.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Vision/Spatial Filtering.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Vision/Spatial Filtering.md"
+                "file": "Database/OBLIG/OBLIG 1.md"
               }
             }
           },
@@ -181,10 +181,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1db3d18ac343b35f",
+  "active": "4ae21057b15268c8",
   "lastOpenFiles": [
-    "Computer Vision/Digital Image Processing- Fundamentals.md",
     "Computer Vision/Spatial Filtering.md",
+    "Computer Vision/Digital Image Processing- Fundamentals.md",
     "Database/OBLIG/OBLIG 1.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.06.2023 Weekly assignment.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/09.29.2023 Weekly assignment.md",
