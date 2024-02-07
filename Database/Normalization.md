@@ -21,5 +21,24 @@
 ### 1NF
 #rules 
 
-- Each table cell should contain a singel value
-- 
+- Each table cell should contain a single value
+- Each Record needs to be unique.
+
+## Primary Key / Composite Key
+- A primary key has following attributes:
+	- A **Primary key** cannot be NULL
+	- A primary key value must be unique 
+	- The primary key values should rarely be changed
+	- The primary key must be given a value when a new record is inserted.
+	- Tew or more columns that
+
+## Keys
+- In our database we have two people with the same name Robert Phil, but they live in different places.
+- Hence, we require both full name and address to identify
+
+### 2NF
+#rules 
+
+- Rule 1 - Be in 1 NF
+- Rule 2 - Single Column Primary Key that does not functionally dependent on any subset of candidate key relation.
+- It is clear that we can't move forward to make a simple database in 2an Normalization form unless we partition the table above. 
