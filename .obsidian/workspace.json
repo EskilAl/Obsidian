@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/Normalization.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/Normalization.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/Normalization.md",
+                "file": "Database/OBLIG/OBLIG 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/Normalization.md"
+                "file": "Database/OBLIG/OBLIG 1.md"
               }
             }
           },
@@ -183,8 +183,8 @@
   },
   "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
-    "Database/OBLIG/OBLIG 1.md",
     "Database/Normalization.md",
+    "Database/OBLIG/OBLIG 1.md",
     "Computer Vision/Spatial Filtering.md",
     "Computer Vision/Digital Image Processing- Fundamentals.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.06.2023 Weekly assignment.md",

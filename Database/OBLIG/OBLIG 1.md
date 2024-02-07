@@ -11,7 +11,7 @@ Write relational algebra expressions that will produce a relation containing:
 
 • Q4: Retrieve all the customers having their account in “active” state and balance more
 than $10000.
-- 
+- ``
 # Part 2 - SQL Queries:
 Write a SQL command for the following:
 • Q1: Retrieve the customers who are not living in “Gjøvik” (Returns 9 records)
