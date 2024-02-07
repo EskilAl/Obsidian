@@ -7,7 +7,7 @@ Write relational algebra expressions that will produce a relation containing:
 - ``Πname,email,city,mobile_number,branch_name(Costumers ⋈ branch_id = id Branch)
 
 • Q3: Retrieve the total amount of transactions per each account.
-- ``Πaccount_number, total_amount​(σaccount_number, total_amount (Account⋈account_number = acc_number​Transaction))
+- ``GroupBy(Account_number,Sum(Amount)(Depositor))
 
 • Q4: Retrieve all the customers having their account in “active” state and balance more
 than $10000.
