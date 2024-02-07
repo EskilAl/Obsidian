@@ -73,3 +73,9 @@
 	- One Student can enroll for multiple subjects. For example student with student_id 101, has opted for subjects -java & C++
 	- For each subject. a professor is assigned to the student.
 	- And, there can be multiple professors teaching one subject like we have for java 
+
+### What do you think should be the Primary key 
+- Well, in the table above student_id, subject together form the primary key, because using student_id and subject, we can find all the columns of the table 
+
+
+- This table satisfies 
