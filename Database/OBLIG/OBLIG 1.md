@@ -30,7 +30,7 @@ loan period 3 years. (Returns 8 records)
 
 • Q4: Retrieve the customers who have not taken any loan. (Returns 2 record)
 
-- ``SELECT * FROM(customer INNER JOIN loan ON customer.Customer_id = loan.Customer_id) WHERE loan.Loan_amount IS NULL AND loan.Loan_period IS NULL
+- ``SELECT * FROM(customer INNER JOIN loan ON customer.Customer_id = loan.Customer_id) WHERE loan.Loan_amount IS NULL AND loan.Loan_period IS NULL`` (This will give the 2 of them, but that is not all that has the total amount of loan )
 
 • Q5: Write a SQL query that retrieves top 3 youngest customers who have taken loans.
 (Returns 3 records)
