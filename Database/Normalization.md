@@ -42,3 +42,9 @@
 - Rule 1 - Be in 1 NF
 - Rule 2 - Single Column Primary Key that does not functionally dependent on any subset of candidate key relation.
 - It is clear that we can't move forward to make a simple database in 2an Normalization form unless we partition the table above. 
+## Transitive functional dependencies
+- A Transitive **functional dependency** is when changing a non-key column, might cause any of the other non-key columns to change.
+- Consider the table 1. Changing the non-key column Full name may change Salutation. 
+
+### 3NF
+- We have again divided our tables and creat
