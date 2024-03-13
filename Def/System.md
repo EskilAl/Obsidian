@@ -67,13 +67,22 @@ ut i fra bildet er det et wannacry randsomware.
 
 
 Sende ut melding til brukere. 
+melde fra til til statlig tjeneste. 
 Kåre trykket på mail, løsepenger virus.
-remoteacces til AD 
+remoteacces til AD. 
 AD admin til alle brukere, er årask.
-finne ut hvor hacker har tilgang,. 
+finne ut hvor hacker har tilgang. 
 
 
-finne ut hvordan vi kan reverse løsepenger, 
+
+
+finne ut hvordan vi kan reverse wanna cry. -> finnes decrypterings værktøy  
+
+tenker på å flytte til ekstern for en quick fix 
+
+
+
+
 
 
 
