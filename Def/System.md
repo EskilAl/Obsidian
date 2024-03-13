@@ -43,7 +43,7 @@ fiks PSU
 
 Backup 
 
-Gammel programvare
+Gammel programvare oppdatere
 
 Opplasning av filer, kontroll av hva som kan lastes opp.
 
@@ -58,6 +58,8 @@ Webportal, sjekke sikkerhet.
 annsete flere i it avdelingen. 
 
 opplæring av annsate
+
+op
 
 
 ### ny handlesse
@@ -79,6 +81,27 @@ finne ut hvor hacker har tilgang.
 finne ut hvordan vi kan reverse wanna cry. -> finnes decrypterings værktøy  
 
 tenker på å flytte til ekstern for en quick fix 
+
+(kan være scipt)
+
+
+1. Holde lokalt, begrense skadeomfang, ta AD av nett. 
+2. Varlse,brukere, sikkerhets myndigheter.
+3. kartlegg skadeomfang. få ut logger.
+4. identifisere innbrudsvei, å finne ut hva som har compromised system.
+5. finne ut om det er noe kopi av backup som kan brukes.
+6. revisjon av systemet å finne ut om det er gjort noe mer skade på systemet.
+7. gjennoprette systemet.
+
+
+Forebygger 
+- 
+
+
+infastruktur 
+
+
+
 
 
 
