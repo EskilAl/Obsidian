@@ -45,7 +45,19 @@ Backup
 
 Gammel programvare
 
-Opplasning av filer, kontroll av hva som kan lastes opp 
+Opplasning av filer, kontroll av hva som kan lastes opp.
+
+Tilgangs kontroll på filer som blir lastet opp.
+
+ip filtrering, aka ip whitelist. 
+
+vpn
+
+Webportal, sjekke sikkerhet. 
+
+
+
+
 
 
 
