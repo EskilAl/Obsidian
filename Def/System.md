@@ -59,7 +59,7 @@ annsete flere i it avdelingen.
 
 opplæring av annsate
 
-op
+backup lagres eksternt. 
 
 
 ### ny handlesse
@@ -87,12 +87,14 @@ tenker på å flytte til ekstern for en quick fix
 
 1. Holde lokalt, begrense skadeomfang, ta AD av nett. 
 2. Varlse,brukere, sikkerhets myndigheter.
-3. kartlegg skadeomfang. få ut logger.
+3. kartlegg skadeomfang. få ut logger. hva som er skadet og hva som ikke er skadet. 
 4. identifisere innbrudsvei, å finne ut hva som har compromised system.
 5. finne ut om det er noe kopi av backup som kan brukes.
 6. revisjon av systemet å finne ut om det er gjort noe mer skade på systemet.
 7. gjennoprette systemet.
 
+## Gjennopta driften 
+- Flytte webtjenesten til en sky tjeneste som gjør at annsatte og brukere kan sende inn(eller jobbe med.) søknader. 
 
 Forebygger 
 - 
