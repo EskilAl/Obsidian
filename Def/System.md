@@ -33,7 +33,19 @@ Ikke alle trenger å være admin
 
 bare en admin
 
+Fjærn lokal admin, 
+
 Brannmur på portene
+
+Adgangskontroll/Tilgangskontroll
+
+fiks PSU
+
+Backup 
+
+
+
+
 
 
 
