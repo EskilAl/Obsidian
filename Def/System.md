@@ -55,7 +55,9 @@ vpn
 
 Webportal, sjekke sikkerhet. 
 
+annsete flere i it avdelingen. 
 
+opplæring av annsate
 
 
 
