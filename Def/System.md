@@ -101,6 +101,10 @@ Forebygger
 
 
 infastruktur 
+Flytte til en ekstern serivce så brukere kan forsatt sende inn søknader som kan behandles
+- Bedre passord policy
+- 2FA
+- Begrense tilgang.
 
 
 
