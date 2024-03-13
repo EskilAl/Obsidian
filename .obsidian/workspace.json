@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Def/System.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Def/System.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md",
+                "file": "Def/System.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Database/OBLIG/OBLIG 1.md"
+                "file": "Def/System.md"
               }
             }
           },
@@ -183,8 +183,10 @@
   },
   "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
-    "Database/Normalization.md",
     "Database/OBLIG/OBLIG 1.md",
+    "Def/System.md",
+    "Def",
+    "Database/Normalization.md",
     "Computer Vision/Spatial Filtering.md",
     "Computer Vision/Digital Image Processing- Fundamentals.md",
     "IIKG1001 Cybersikkerhet/WeeklyAssign/10.06.2023 Weekly assignment.md",
@@ -214,7 +216,6 @@
     "IIKG1001 Cybersikkerhet/Monday 23.10.23.md",
     "IIKG1001 Cybersikkerhet/Lectures/Monday 10.09.23.md",
     "IIKG1001 Cybersikkerhet/Lectures/Monday 10.02.23.md",
-    "IDATG2202 OS/Chapter 1.md",
     "Pasted image 20231102124613.png",
     "Pasted image 20231102124357.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023084323.png",
@@ -228,7 +229,6 @@
     "IIKG1001 Cybersikkerhet/WeeklyAssign",
     "Windows Copilot stories",
     "IDATG2202 OS/Pictures for OS",
-    "Div/Bilder til div",
     "Untitled.canvas"
   ]
 }
