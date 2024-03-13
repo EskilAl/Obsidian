@@ -43,7 +43,9 @@ fiks PSU
 
 Backup 
 
+Gammel programvare
 
+Opplasning av filer, kontroll av hva som kan lastes opp 
 
 
 
