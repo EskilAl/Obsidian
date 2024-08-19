@@ -13,4 +13,14 @@
 - Iterate.
 - Fail fast and iterate.
 
-### 
+### Example summery
+- Know your audience/users.
+- Observe and interview people.
+- Try to understand their needs.
+- Test - Fail - Adapt - Try again.
+- Iterate.
+
+#Part1 
+### General Course information
+- What will you learn?
+- How will you learn?
