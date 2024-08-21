@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "User-Centered Design/Introduction to User-Centered Design.md",
+                "file": "Software security/Intro.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "User-Centered Design/Introduction to User-Centered Design.md",
+                "file": "Software security/Intro.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "User-Centered Design/Introduction to User-Centered Design.md",
+                "file": "Software security/Intro.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "User-Centered Design/Introduction to User-Centered Design.md"
+                "file": "Software security/Intro.md"
               }
             }
           },
@@ -183,8 +183,14 @@
   },
   "active": "1db3d18ac343b35f",
   "lastOpenFiles": [
-    "Def/System.md",
+    "Infrastructure as code/Infrastructure as code.md",
+    "Software security/Intro.md",
+    "Untitled 1/desktop.ini",
+    "Software security",
+    "Untitled",
     "User-Centered Design/Introduction to User-Centered Design.md",
+    "Infrastructure as code",
+    "Def/System.md",
     "User-Centered Design",
     "Database/OBLIG/OBLIG 1.md",
     "Def",
@@ -212,11 +218,8 @@
     "Database",
     "Computer Vision",
     "Div/Eksamen ETISK 2023.md",
-    "Cloud",
     "IDATG2202 OS/Review question and problems..md",
     "IDATG2202 OS/Untitled.md",
-    "IIKG1001 Cybersikkerhet/Monday 23.10.23.md",
-    "IIKG1001 Cybersikkerhet/Lectures/Monday 10.09.23.md",
     "Pasted image 20231102124613.png",
     "Pasted image 20231102124357.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231023084323.png",
@@ -226,9 +229,6 @@
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114028.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114341.png",
     "IIKG1001 Cybersikkerhet/Pictures for Cyber/Pasted image 20231020114330.png",
-    "IIKG1001 Cybersikkerhet/Lectures",
-    "IIKG1001 Cybersikkerhet/WeeklyAssign",
-    "Windows Copilot stories",
     "Untitled.canvas"
   ]
 }
