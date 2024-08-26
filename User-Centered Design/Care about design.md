@@ -31,3 +31,30 @@ HDC is about designing products from the perspective of how they will be underst
 Products should support their users 'existing beliefs ,values attitude and habits.
 
 
+Coming up with interesting questions
+
+##### How?
+
+###### The double Diamond
+
+What are your user trying to do?
+- why?
+- what's hard currently? 
+- What's the most high impact problems for users?
+- Does this fix the problem?
+- Do all users understand this (can they use them).
+
+What the double diamond is not
+
+It is not a research methodology (it is a development process model)
+
+It is not the only model (and not necessarily the best)
+
+Applying it does not guarantee good results
+
+what is it?
+
+it helps to organize your design process. 
+
+
+
