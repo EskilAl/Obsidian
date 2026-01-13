@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:146.0) Gecko/20100101 Firefox/146.0" version="29.3.0">
+  <diagram name="Page-1" id="jhfwC2-80ap3hvApJRMC">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Security/Platform Engineer" vertex="1">
+          <mxGeometry height="510" width="209" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="System" vertex="1">
+          <mxGeometry height="510" width="150" x="321" as="geometry" />
+        </mxCell>
+        <mxCell id="4" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="3" value="Submit repo list + time window">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="259" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5" edge="1" parent="1" source="3" style="curved=1;endArrow=block;" target="3" value="Collects GitHub signals">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="159" />
+              <mxPoint x="447" y="189" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6" edge="1" parent="1" source="3" style="curved=1;endArrow=block;" target="3" value="Computes indicators (bus-factor, blast radius)">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="241" />
+              <mxPoint x="447" y="271" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7" edge="1" parent="1" source="3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="2" value="Generates report + visuals">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="262" y="323" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8" edge="1" parent="1" source="2" style="curved=1;endArrow=block;" target="2" value="Uses findings to decide follow-up actions">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="156" y="375" />
+              <mxPoint x="156" y="405" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
