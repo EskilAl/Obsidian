@@ -1,0 +1,98 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.3.8">
+  <diagram name="Page-1" id="YDpCgFk2yARgnC3NqOr6">
+    <mxGraphModel dx="1071" dy="680" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Elements -->
+        <mxCell id="2" value="Grid" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Transformer / Feeder" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="300" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Community Battery (kW/kWh)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="endArrow=none;html=1;rounded=0;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="150" y="250" width="450" height="0" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="House A" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Load (kW)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="6" vertex="1">
+          <mxGeometry x="10" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="House B" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Load (kW)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="8" vertex="1">
+          <mxGeometry x="10" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="House C" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="550" y="350" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="Load (kW)" style="shape=rectangle;whiteSpace=wrap;html=1;" parent="10" vertex="1">
+          <mxGeometry x="10" y="30" width="80" height="40" as="geometry" />
+        </mxCell>
+        <!-- Connections -->
+        <mxCell id="12" value="" style="strokeWidth=3;endArrow=classic;html=1;rounded=0;" parent="1" source="2" target="3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="110" as="sourcePoint" />
+            <mxPoint x="360" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Neighborhood import" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="12" vertex="1">
+          <mxGeometry x="-0.1837" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="4" target="5" edge="1">
+          <mxGeometry x="-0.04" relative="1" as="geometry">
+            <mxPoint x="450" y="180" as="sourcePoint" />
+            <mxPoint x="450" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Discharge during peak" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="14" vertex="1">
+          <mxGeometry x="-0.1837" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="210" as="sourcePoint" />
+            <mxPoint x="360" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5" target="6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="250" as="sourcePoint" />
+            <mxPoint x="200" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5" target="8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="250" as="sourcePoint" />
+            <mxPoint x="400" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" source="5" target="10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="250" as="sourcePoint" />
+            <mxPoint x="520" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <!-- Text and Note -->
+        <mxCell id="20" value="Grid import = Sum(house loads) − Battery discharge" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="240" y="280" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Peak shaving is global: reduces transformer/cable loading directly." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
+          <mxGeometry x="650" y="150" width="150" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
