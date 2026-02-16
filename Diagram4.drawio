@@ -1,0 +1,95 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
+  <diagram name="Page-1" id="qJkOVq0rettNfTjIfSc_">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="Player" vertex="1">
+          <mxGeometry height="734" width="150" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="SpamInputManager" vertex="1">
+          <mxGeometry height="734" width="160" x="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="GameController" vertex="1">
+          <mxGeometry height="734" width="150" x="607" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="SpeedStrategy" vertex="1">
+          <mxGeometry height="734" width="150" x="807" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="GameState" vertex="1">
+          <mxGeometry height="734" width="150" x="1138" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="HUDView" vertex="1">
+          <mxGeometry height="734" width="150" x="1468" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;" value="NetworkManager" vertex="1">
+          <mxGeometry height="734" width="150" x="1668" as="geometry" />
+        </mxCell>
+        <mxCell id="9" edge="1" parent="1" source="2" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="3" value="send spam input">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="186" y="107" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="10" edge="1" parent="1" source="3" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="4" value="emit SpamCommand">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="159" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" edge="1" parent="1" source="4" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="5" value="execute command">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="791" y="211" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" edge="1" parent="1" source="5" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="6" value="recalculates speed">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1056" y="263" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" edge="1" parent="1" source="6" style="curved=1;endArrow=block;" target="6" value="update horseSpeed">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1264" y="315" />
+              <mxPoint x="1264" y="345" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" edge="1" parent="1" source="6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="7" value="notify observers">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1386" y="397" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" edge="1" parent="1" source="7" style="curved=1;endArrow=block;" target="7" value="update speed display">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1594" y="449" />
+              <mxPoint x="1594" y="479" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" edge="1" parent="1" source="6" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;" target="8" value="sync state to opponent">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1486" y="531" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Low latency is critical – UI must update immediately after GameState change." vertex="1">
+          <mxGeometry height="49" width="561" x="932" y="551" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="1" style="fillColor=#ffff88;strokeColor=#9E916F;" value="Observer + Command + Strategy collaboration" vertex="1">
+          <mxGeometry height="49" width="352" x="305" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
