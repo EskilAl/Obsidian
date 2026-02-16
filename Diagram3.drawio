@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
   <diagram name="Page-1" id="iOB-Q_TIwQ4p8SUYbAwL">
-    <mxGraphModel>
+    <mxGraphModel dx="1783" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry height="47" width="206" y="79" as="geometry" />
         </mxCell>
         <mxCell id="27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=71;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="&lt;&lt;interface&gt;&gt;&#xa;DamageStrategy" vertex="1">
-          <mxGeometry height="150" width="227" x="466" y="20" as="geometry" />
+          <mxGeometry height="126" width="227" x="490" y="20" as="geometry" />
         </mxCell>
         <mxCell id="28" parent="27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
           <mxGeometry height="8" width="227" y="71" as="geometry" />
