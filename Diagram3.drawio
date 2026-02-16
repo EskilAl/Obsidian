@@ -1,23 +1,23 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:147.0) Gecko/20100101 Firefox/147.0" version="29.4.0">
   <diagram name="Page-1" id="iOB-Q_TIwQ4p8SUYbAwL">
-    <mxGraphModel dx="1783" dy="974" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2583" dy="1424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36.888888888888886;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="GameController" vertex="1">
-          <mxGeometry height="174" width="194" x="222" y="8" as="geometry" />
+          <mxGeometry height="155.88888888888889" width="194" x="260" y="20" as="geometry" />
         </mxCell>
         <mxCell id="3" parent="2" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
-          <mxGeometry height="8" width="194" y="55" as="geometry" />
+          <mxGeometry height="8" width="194" y="36.888888888888886" as="geometry" />
         </mxCell>
         <mxCell id="4" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+startGame()" vertex="1">
-          <mxGeometry height="37" width="194" y="63" as="geometry" />
+          <mxGeometry height="37" width="194" y="44.888888888888886" as="geometry" />
         </mxCell>
         <mxCell id="5" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+processInput()" vertex="1">
-          <mxGeometry height="37" width="194" y="100" as="geometry" />
+          <mxGeometry height="37" width="194" y="81.88888888888889" as="geometry" />
         </mxCell>
         <mxCell id="6" parent="2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+update()" vertex="1">
-          <mxGeometry height="37" width="194" y="137" as="geometry" />
+          <mxGeometry height="37" width="194" y="118.88888888888889" as="geometry" />
         </mxCell>
         <mxCell id="7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=34.666666666666664;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="GameState" vertex="1">
           <mxGeometry height="216" width="285" x="281" y="480" as="geometry" />
@@ -80,7 +80,7 @@
           <mxGeometry height="47" width="206" y="79" as="geometry" />
         </mxCell>
         <mxCell id="27" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=71;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;" value="&lt;&lt;interface&gt;&gt;&#xa;DamageStrategy" vertex="1">
-          <mxGeometry height="126" width="227" x="490" y="20" as="geometry" />
+          <mxGeometry height="126" width="227" x="550" y="8" as="geometry" />
         </mxCell>
         <mxCell id="28" parent="27" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
           <mxGeometry height="8" width="227" y="71" as="geometry" />
