@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="Page-1" id="WP2OnV7o5irwRzSvscoQ">
-    <mxGraphModel dx="1167" dy="4097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="757" dy="3826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -60,7 +60,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Machine resource found in Kubernetes?" mermaidId="n:decision_machine_found" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Machine resource found in Kubernetes?" id="7">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;imageAspect=1;" vertex="1">
             <mxGeometry height="54" width="340" x="2777" y="-685" as="geometry" />
           </mxCell>
         </UserObject>
@@ -188,7 +188,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="p-3naK_85DjVvBY4tQBO-78">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
             <mxGeometry height="54" width="211" x="2414.5" y="-120" as="geometry" />
           </mxCell>
         </UserObject>
@@ -221,7 +221,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="13">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
             <mxGeometry height="54" width="211" x="3204.5" y="-154" as="geometry" />
           </mxCell>
         </UserObject>
@@ -281,7 +281,7 @@
           </mxGeometry>
         </mxCell>
         <UserObject label="Drift detected?" mermaidId="n:decision_drift_detected" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Drift detected?" id="24">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
             <mxGeometry height="54" width="168" x="3570.5" y="102" as="geometry" />
           </mxCell>
         </UserObject>
@@ -355,6 +355,9 @@
             <mxGeometry height="54" width="209" x="3520" y="546" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-56" parent="56" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Machine resource found in Kubernetes?" vertex="1">
+          <mxGeometry height="170" width="190" x="2381.5" y="-938" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
