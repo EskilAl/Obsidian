@@ -1,0 +1,361 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="WP2OnV7o5irwRzSvscoQ">
+    <mxGraphModel dx="1167" dy="4097" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;graph LR\n    title \&quot;Machine Controller Reconcile Flow\&quot;\n    style title fill:#f9f,stroke:#333,stroke-width:2px,color:#fff\n    style node fill:#f9f,stroke:#333,stroke-width:2px\n    style decision fill:#f9f,stroke:#333,stroke-width:2px\n    style error fill:#fdd,stroke:#a00,stroke-width:2px\n    style start fill:#f9f,stroke:#333,stroke-width:2px\n    style end fill:#f9f,stroke:#333,stroke-width:2px\n\n    start[Watch Machine resource events]\n    start --&gt;|Yes| reconcile_request_received[Reconcile request received]\n    reconcile_request_received --&gt;|Yes| fetch_machine_resource[Fetch Machine resource from Kubernetes API]\n    fetch_machine_resource --&gt;|Yes| decision_machine_found[Machine resource found in Kubernetes?]\n    decision_machine_found --|No|-&gt; nothing_to_reconcile[End: Nothing to reconcile]\n    decision_machine_found --|Yes|-&gt; ensure_finalizer_present[Ensure finalizer is present]\n\n    ensure_finalizer_present --&gt;|Yes| decision_deletion_timestamp_set[Deletion timestamp set?]\n    decision_deletion_timestamp_set --|Yes|-&gt; deletion_flow[Deletion flow]\n    deletion_flow --&gt;|Yes| query_vcenter_vm[Query vCenter for corresponding VM]\n    query_vcenter_vm --&gt;|Yes| decision_vm_exists[VM exists in vCenter?]\n    decision_vm_exists --|Yes|-&gt; delete_vm[Delete VM in vCenter]\n    delete_vm --&gt;|Yes| remove_finalizer[Remove finalizer]\n    remove_finalizer --&gt;|Yes| update_machine_status[Update Machine status / conditions]\n    update_machine_status --&gt;|Yes| end_finish_reconcile[End: Finish reconcile]\n    delete_vm --|No|-&gt; skip_delete_vm_not_found[Skip delete, VM not found]\n    skip_delete_vm_not_found --&gt;|Yes| end_finish_reconcile\n\n    ensure_finalizer_present --|No|-&gt; normal_create_update_flow[Normal create/update flow]\n    normal_create_update_flow --&gt;|Yes| validate_machine_spec[Validate Machine spec]\n    validate_machine_spec --&gt;|Yes| query_vcenter_vm_by_machine_identity[Query vCenter for VM by Machine identity]\n    query_vcenter_vm_by_machine_identity --&gt;|Yes| decision_vm_exists\n    decision_vm_exists --|Yes|-&gt; create_vm[Create VM in vCenter from Machine spec]\n    create_vm --&gt;|Yes| update_machine_status\n    create_vm --|No|-&gt; compare_desired_machine_spec_with_actual_vm_state[Compare desired Machine spec with actual VM state]\n    compare_desired_machine_spec_with_actual_vm_state --&gt;|Yes| decision_drift_detected[Drift detected?]\n    decision_drift_detected --|Yes|-&gt; reconfigure_update_vm[Reconfigure / update VM in vCenter]\n    reconfigure_update_vm --&gt;|Yes| update_machine_status\n    reconfigure_update_vm --|No|-&gt; no_changes_needed_vm_already_matches_desired_state[No changes needed, VM already matches desired state]\n    no_changes_needed_vm_already_matches_desired_state --&gt;|Yes| update_machine_status\n    no_changes_needed_vm_already_matches_desired_state --|No|-&gt; end_finish_reconcile\n\n    error[Set Ready=False / Error condition and requeue]\n    query_vcenter_vm --&gt;|Yes|-&gt; error\n    delete_vm --&gt;|Yes|-&gt; error\n    create_vm --&gt;|Yes|-&gt; error\n    reconfigure_update_vm --&gt;|Yes|-&gt; error\n    error --&gt;|Yes|-&gt; reconcile_request_received\n\n    style decision_machine_found fill:#0a0,stroke:#0a0,stroke-width:2px\n    style decision_vm_exists fill:#0a0,stroke:#0a0,stroke-width:2px\n    style decision_drift_detected fill:#0a0,stroke:#0a0,stroke-width:2px&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="56">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="620" width="4211" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="title" mermaidId="n:title" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#f9f;strokeColor=#333;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="title" id="2">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#f9f;strokeColor=#333;fontColor=#fff;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="91" x="3580" y="-880" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Machine Controller Reconcile Flow" mermaidId="n:Machine Controller Reconcile Flow" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Machine Controller Reconcile Flow" id="3">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;gradientColor=none;fillStyle=solid;fillColor=default;" vertex="1">
+            <mxGeometry height="54" width="308" x="3060" y="-1290" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-59" edge="1" parent="56" source="4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Watch Machine resource events" mermaidId="n:start" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#f9f;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Watch Machine resource events" id="4">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#f9f;strokeColor=#333;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="286" x="2804" y="-1180" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-61" edge="1" parent="56" source="5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Reconcile request received" mermaidId="n:reconcile_request_received" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Reconcile request received" id="5">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=default;strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="254" x="2820" y="-1015" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-62" edge="1" parent="56" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Fetch Machine resource from Kubernetes API" mermaidId="n:fetch_machine_resource" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Fetch Machine resource from Kubernetes API" id="6">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="382" x="2756" y="-855" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-64" edge="1" parent="56" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-104" connectable="0" parent="p-3naK_85DjVvBY4tQBO-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.079" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-65" edge="1" parent="56" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-105" connectable="0" parent="p-3naK_85DjVvBY4tQBO-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3069" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Machine resource found in Kubernetes?" mermaidId="n:decision_machine_found" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Machine resource found in Kubernetes?" id="7">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="340" x="2777" y="-685" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="End: Nothing to reconcile" mermaidId="n:nothing_to_reconcile" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="End: Nothing to reconcile" id="8">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="243" x="2355" y="-685" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-63" edge="1" parent="56" source="9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Ensure finalizer is present" mermaidId="n:ensure_finalizer_present" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Ensure finalizer is present" id="9">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="58" width="267" x="2813.5" y="-530" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-72" edge="1" parent="56" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-106" connectable="0" parent="p-3naK_85DjVvBY4tQBO-72" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0776" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-74" edge="1" parent="56" source="10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-107" connectable="0" parent="p-3naK_85DjVvBY4tQBO-74" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1073" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Deletion timestamp set?" mermaidId="n:decision_deletion_timestamp_set" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Deletion timestamp set?" id="10">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="234" x="2830" y="-435" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-73" edge="1" parent="56" source="11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Deletion flow" mermaidId="n:deletion_flow" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Deletion flow" id="11">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="156" x="2442" y="-435" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-79" edge="1" parent="56" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Query vCenter for corresponding VM" mermaidId="n:query_vcenter_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Query vCenter for corresponding VM" id="12">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="320" x="2360" y="-289" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-82" edge="1" parent="56" source="14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2309" y="181" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Delete VM in vCenter" mermaidId="n:delete_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Delete VM in vCenter" id="14">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="212" x="2202.5" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-84" edge="1" parent="56" source="15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Remove finalizer" mermaidId="n:remove_finalizer" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Remove finalizer" id="15">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="180" x="2418" y="154" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-86" edge="1" parent="56" source="16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Update Machine status / conditions" mermaidId="n:update_machine_status" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Update Machine status / conditions" id="16">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="314" x="2351" y="280" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="End: Finish reconcile" mermaidId="n:end_finish_reconcile" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="End: Finish reconcile" id="17">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="209" x="2389" y="410" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-83" edge="1" parent="56" source="18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Skip delete, VM not found" mermaidId="n:skip_delete_vm_not_found" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Skip delete, VM not found" id="18">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="246" x="2598" y="10" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-112" edge="1" parent="56" source="19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Normal create/update flow" mermaidId="n:normal_create_update_flow" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Normal create/update flow" id="19">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="257" x="3180.5" y="-435" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-80" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2309" y="-93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-108" connectable="0" parent="p-3naK_85DjVvBY4tQBO-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2758" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-81" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2721" y="-93" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-109" connectable="0" parent="p-3naK_85DjVvBY4tQBO-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1788" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="p-3naK_85DjVvBY4tQBO-78">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="211" x="2414.5" y="-120" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-111" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Validate Machine spec" mermaidId="n:validate_machine_spec" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Validate Machine spec" id="p-3naK_85DjVvBY4tQBO-110">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="218" x="3200" y="-550" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-88" edge="1" parent="56" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3066" y="-127" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-113" connectable="0" parent="p-3naK_85DjVvBY4tQBO-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0281" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-91" edge="1" parent="56" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-114" connectable="0" parent="p-3naK_85DjVvBY4tQBO-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0452" y="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="13">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="211" x="3204.5" y="-154" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-85" edge="1" parent="56" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-87" edge="1" parent="56" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;startArrow=classic;startFill=1;fillColor=#f9f7ed;dashed=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Query vCenter for VM by Machine identity" mermaidId="n:query_vcenter_vm_by_machine_identity" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Query vCenter for VM by Machine identity" id="21">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="360" x="3130" y="-260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-90" edge="1" parent="56" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-117" edge="1" parent="56" source="22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;dashed=1;startArrow=classic;startFill=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3140" y="50" />
+              <mxPoint x="4308" y="50" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Create VM in vCenter from Machine spec" mermaidId="n:create_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Create VM in vCenter from Machine spec" id="22">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="352" x="2890" y="-34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-93" edge="1" parent="56" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Compare desired Machine spec with actual VM state" mermaidId="n:compare_desired_machine_spec_with_actual_vm_state" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Compare desired Machine spec with actual VM state" id="23">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="434" x="3437.5" y="-34" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-94" edge="1" parent="56" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-116" connectable="0" parent="p-3naK_85DjVvBY4tQBO-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2485" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-95" edge="1" parent="56" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3460" y="126" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-115" connectable="0" parent="p-3naK_85DjVvBY4tQBO-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2426" y="3" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Drift detected?" mermaidId="n:decision_drift_detected" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Drift detected?" id="24">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="168" x="3570.5" y="102" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-118" edge="1" parent="56" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;snapToPoint=0;fixDash=0;backgroundOutline=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3530" y="320" />
+              <mxPoint x="4360" y="320" />
+            </Array>
+            <mxPoint x="4360" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Reconfigure / update VM in vCenter" mermaidId="n:reconfigure_update_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Reconfigure / update VM in vCenter" id="25">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="318" x="3300" y="236" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="No changes needed, VM already matches desired state" mermaidId="n:no_changes_needed_vm_already_matches_desired_state" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="No changes needed, VM already matches desired state" id="26">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="451" x="3740" y="236" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-92" edge="1" parent="56" source="27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=classic;startFill=1;strokeColor=default;dashed=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3892" y="-220" />
+              <mxPoint x="3892" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Set Ready=False / Error condition and requeue" mermaidId="n:error" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fdd;strokeColor=#a00;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Set Ready=False / Error condition and requeue" id="27">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#fdd;strokeColor=#a00;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="395" x="4110" y="-260" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="Update Machine status / conditions" mermaidId="n:update_machine_status" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Update Machine status / conditions" id="p-3naK_85DjVvBY4tQBO-89">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="314" x="2909" y="102" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-101" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="Update Machine status / conditions" mermaidId="n:update_machine_status" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Update Machine status / conditions" id="p-3naK_85DjVvBY4tQBO-96">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="314" x="3300" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-103" edge="1" parent="56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;snapToPoint=0;fixDash=0;backgroundOutline=1;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3966.5" y="587" />
+            </Array>
+            <mxPoint x="3966.5" y="404" as="sourcePoint" />
+            <mxPoint x="3738.5" y="586.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Update Machine status / conditions" mermaidId="n:update_machine_status" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Update Machine status / conditions" id="p-3naK_85DjVvBY4tQBO-97">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="314" x="3808.5" y="350" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-98" edge="1" parent="56" source="26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="p-3naK_85DjVvBY4tQBO-99" edge="1" parent="56" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <UserObject label="End: Finish reconcile" mermaidId="n:end_finish_reconcile" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="End: Finish reconcile" id="p-3naK_85DjVvBY4tQBO-100">
+          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
+            <mxGeometry height="54" width="209" x="3520" y="546" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
