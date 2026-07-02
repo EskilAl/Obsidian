@@ -207,6 +207,15 @@
         <mxCell id="sbYJdw-g2nrKMZUmyDBm-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=default;align=center;verticalAlign=middle;rounded=0;" value="5. Client Layer sends create / update / delete/ get requests to VMvare vCenter" vertex="1">
           <mxGeometry height="30" width="190" x="530" y="840" as="geometry" />
         </mxCell>
+        <mxCell id="sbYJdw-g2nrKMZUmyDBm-35" parent="1" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;strokeColor=light-dark(#000000,#5C79A3);" value="" vertex="1">
+          <mxGeometry height="70" width="450" x="100" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="sbYJdw-g2nrKMZUmyDBm-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(92, 121, 163));&quot;&gt;NOTE:&lt;/span&gt;&lt;/b&gt;&amp;nbsp;Controller uses exisiting shared Machine definition rather than owning a duplicate CRD." vertex="1">
+          <mxGeometry height="30" width="310" x="180" y="1001" as="geometry" />
+        </mxCell>
+        <mxCell id="sbYJdw-g2nrKMZUmyDBm-37" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.lightbulb;" value="" vertex="1">
+          <mxGeometry height="29.7" width="22.8" x="140" y="1001" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
