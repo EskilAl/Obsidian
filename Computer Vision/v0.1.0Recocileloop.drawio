@@ -35,35 +35,36 @@
             <mxGeometry height="54" width="254" x="2820" y="-1015" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-62" edge="1" parent="56" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-62" edge="1" parent="56" source="6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="ynTgRFUCo-ga5DruUUtD-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2947" y="-671.5000000000005" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="Fetch Machine resource from Kubernetes API" mermaidId="n:fetch_machine_resource" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Fetch Machine resource from Kubernetes API" id="6">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
             <mxGeometry height="54" width="382" x="2756" y="-855" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-64" edge="1" parent="56" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="8">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-64" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=0.076;exitY=0.545;exitDx=0;exitDy=0;exitPerimeter=0;" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2777" y="-658" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-104" connectable="0" parent="p-3naK_85DjVvBY4tQBO-64" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.079" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-65" edge="1" parent="56" source="7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="9">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-65" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=0.489;exitY=0.949;exitDx=0;exitDy=0;exitPerimeter=0;" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2947" y="-644.4999999999995" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-105" connectable="0" parent="p-3naK_85DjVvBY4tQBO-65" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.3069" y="4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="Machine resource found in Kubernetes?" mermaidId="n:decision_machine_found" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Machine resource found in Kubernetes?" id="7">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;imageAspect=1;" vertex="1">
-            <mxGeometry height="54" width="340" x="2777" y="-685" as="geometry" />
-          </mxCell>
-        </UserObject>
         <UserObject label="End: Nothing to reconcile" mermaidId="n:nothing_to_reconcile" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="End: Nothing to reconcile" id="8">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
             <mxGeometry height="54" width="243" x="2355" y="-685" as="geometry" />
@@ -106,8 +107,10 @@
             <mxGeometry height="54" width="156" x="2442" y="-435" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-79" edge="1" parent="56" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-78">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-79" edge="1" parent="56" source="12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ynTgRFUCo-ga5DruUUtD-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2519.9999999999995" y="-106.50000000000045" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="Query vCenter for corresponding VM" mermaidId="n:query_vcenter_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Query vCenter for corresponding VM" id="12">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
@@ -163,11 +166,12 @@
             <mxGeometry height="54" width="257" x="3180.5" y="-435" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-80" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="14">
+        <mxCell id="p-3naK_85DjVvBY4tQBO-80" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="2309" y="-93" />
+              <mxPoint x="2309" y="-87" />
             </Array>
+            <mxPoint x="2414.5" y="-93" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-108" connectable="0" parent="p-3naK_85DjVvBY4tQBO-80" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
@@ -175,11 +179,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-81" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="18">
+        <mxCell id="p-3naK_85DjVvBY4tQBO-81" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="2587" y="-93" />
               <mxPoint x="2721" y="-93" />
             </Array>
+            <mxPoint x="2625.4999999999995" y="-93" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-109" connectable="0" parent="p-3naK_85DjVvBY4tQBO-81" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
@@ -187,12 +193,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="p-3naK_85DjVvBY4tQBO-78">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
-            <mxGeometry height="54" width="211" x="2414.5" y="-120" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-111" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="19">
+        <mxCell id="p-3naK_85DjVvBY4tQBO-111" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-110" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;startArrow=classic;startFill=1;" target="19">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <UserObject label="Validate Machine spec" mermaidId="n:validate_machine_spec" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Validate Machine spec" id="p-3naK_85DjVvBY4tQBO-110">
@@ -200,11 +201,12 @@
             <mxGeometry height="54" width="218" x="3200" y="-550" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-88" edge="1" parent="56" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="22">
+        <mxCell id="p-3naK_85DjVvBY4tQBO-88" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="22">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="3066" y="-127" />
+              <mxPoint x="3066" y="-77" />
             </Array>
+            <mxPoint x="3204.5" y="-126.99999999999955" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-113" connectable="0" parent="p-3naK_85DjVvBY4tQBO-88" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
@@ -212,21 +214,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-91" edge="1" parent="56" source="13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="23">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-91" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3655" y="-77" />
+            </Array>
+            <mxPoint x="3415.4999999999945" y="-126.99999999999955" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-114" connectable="0" parent="p-3naK_85DjVvBY4tQBO-91" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0452" y="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="VM exists in vCenter?" mermaidId="n:decision_vm_exists" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="VM exists in vCenter?" id="13">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
-            <mxGeometry height="54" width="211" x="3204.5" y="-154" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-85" edge="1" parent="56" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="13">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-85" edge="1" parent="56" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="ynTgRFUCo-ga5DruUUtD-57">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3309.9999999999995" y="-140.50000000000045" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-87" edge="1" parent="56" source="21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;startArrow=classic;startFill=1;fillColor=#f9f7ed;dashed=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="27">
           <mxGeometry relative="1" as="geometry" />
@@ -249,30 +253,36 @@
         </mxCell>
         <UserObject label="Create VM in vCenter from Machine spec" mermaidId="n:create_vm" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Create VM in vCenter from Machine spec" id="22">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
-            <mxGeometry height="54" width="352" x="2890" y="-34" as="geometry" />
+            <mxGeometry height="54" width="352" x="2890" y="30" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-93" edge="1" parent="56" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="24">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-93" edge="1" parent="56" source="23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="ynTgRFUCo-ga5DruUUtD-60">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3654.5" y="115.5" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <UserObject label="Compare desired Machine spec with actual VM state" mermaidId="n:compare_desired_machine_spec_with_actual_vm_state" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Compare desired Machine spec with actual VM state" id="23">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
             <mxGeometry height="54" width="434" x="3437.5" y="-34" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-94" edge="1" parent="56" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="26">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="p-3naK_85DjVvBY4tQBO-94" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3738.5" y="129.00000000000045" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-116" connectable="0" parent="p-3naK_85DjVvBY4tQBO-94" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;No&lt;/font&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.2485" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="p-3naK_85DjVvBY4tQBO-95" edge="1" parent="56" source="24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="25">
+        <mxCell id="p-3naK_85DjVvBY4tQBO-95" edge="1" parent="56" source="ynTgRFUCo-ga5DruUUtD-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="25">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="3590" y="126" />
               <mxPoint x="3460" y="126" />
             </Array>
+            <mxPoint x="3570.5" y="126.00000000000045" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="p-3naK_85DjVvBY4tQBO-115" connectable="0" parent="p-3naK_85DjVvBY4tQBO-95" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];snapToPoint=0;fixDash=0;backgroundOutline=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Yes&lt;/font&gt;" vertex="1">
@@ -280,11 +290,6 @@
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <UserObject label="Drift detected?" mermaidId="n:decision_drift_detected" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Drift detected?" id="24">
-          <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=2;fillColor=#0a0;strokeColor=#0a0;fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;perimeter=trianglePerimeter;" vertex="1">
-            <mxGeometry height="54" width="168" x="3570.5" y="102" as="geometry" />
-          </mxCell>
-        </UserObject>
         <mxCell id="p-3naK_85DjVvBY4tQBO-118" edge="1" parent="56" source="25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;dashed=1;snapToPoint=0;fixDash=0;backgroundOutline=1;">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -317,9 +322,16 @@
             <mxGeometry height="54" width="395" x="4110" y="-260" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-61" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="p-3naK_85DjVvBY4tQBO-100">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3070" y="573" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <UserObject label="Update Machine status / conditions" mermaidId="n:update_machine_status" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="Update Machine status / conditions" id="p-3naK_85DjVvBY4tQBO-89">
           <mxCell parent="56" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;snapToPoint=0;fixDash=0;backgroundOutline=1;" vertex="1">
-            <mxGeometry height="54" width="314" x="2909" y="102" as="geometry" />
+            <mxGeometry height="54" width="314" x="2909" y="226" as="geometry" />
           </mxCell>
         </UserObject>
         <mxCell id="p-3naK_85DjVvBY4tQBO-101" edge="1" parent="56" source="p-3naK_85DjVvBY4tQBO-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;snapToPoint=0;fixDash=0;backgroundOutline=1;" target="p-3naK_85DjVvBY4tQBO-100">
@@ -355,8 +367,20 @@
             <mxGeometry height="54" width="209" x="3520" y="546" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="ynTgRFUCo-ga5DruUUtD-56" parent="56" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="Machine resource found in Kubernetes?" vertex="1">
-          <mxGeometry height="170" width="190" x="2381.5" y="-938" as="geometry" />
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-56" parent="56" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Machine resource found in Kubernetes?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="170" width="190" x="2852" y="-750" as="geometry" />
+        </mxCell>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-57" parent="56" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;VM exists in vCenter?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="145" width="145" x="3237.5" y="-150" as="geometry" />
+        </mxCell>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-58" parent="56" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;VM exists in vCenter?&lt;/font&gt;" vertex="1">
+          <mxGeometry height="145" width="145" x="2447.5" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-60" parent="56" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;Drift detected&lt;/font&gt;" vertex="1">
+          <mxGeometry height="122" width="122" x="3593.5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ynTgRFUCo-ga5DruUUtD-59" parent="56" style="rhombus;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="80" x="3260" y="-750" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
