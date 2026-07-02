@@ -245,9 +245,6 @@
         <mxCell id="-ndzPFa4tanpj2Cse1iF-78" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Remove finalizer" vertex="1">
           <mxGeometry height="30" width="140" x="370" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="-ndzPFa4tanpj2Cse1iF-79" edge="1" parent="1" source="-ndzPFa4tanpj2Cse1iF-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.99;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="-ndzPFa4tanpj2Cse1iF-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="-ndzPFa4tanpj2Cse1iF-81" edge="1" parent="1" source="-ndzPFa4tanpj2Cse1iF-63" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" target="aM9ryv3xv72pqoxQDRHE-5">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
@@ -387,6 +384,12 @@
         </mxCell>
         <mxCell id="-ndzPFa4tanpj2Cse1iF-112" parent="1" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.settings;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="480" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="-ndzPFa4tanpj2Cse1iF-115" parent="1" style="whiteSpace=wrap;html=1;" value="&lt;b&gt;Note&lt;/b&gt;: If any step in the flows above fails, the Machine controller sets an Error condition on the machine resource, emits events as appropriate, and re-queues the reconcile to retry using exponential back-off" vertex="1">
+          <mxGeometry height="60" width="575" x="370" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="-ndzPFa4tanpj2Cse1iF-117" parent="1" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Info_2.svg;" value="" vertex="1">
+          <mxGeometry height="50" width="50" x="330" y="945" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
