@@ -280,15 +280,6 @@
         <mxCell id="-ndzPFa4tanpj2Cse1iF-87" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Create VM in VMware vCenter" vertex="1">
           <mxGeometry height="30" width="130" x="875" y="560" as="geometry" />
         </mxCell>
-        <mxCell id="-ndzPFa4tanpj2Cse1iF-88" edge="1" parent="1" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;dashed=1;">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1983" y="930" />
-            </Array>
-            <mxPoint x="2100" y="930" as="sourcePoint" />
-            <mxPoint x="1865" y="930" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="-ndzPFa4tanpj2Cse1iF-89" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Create Success&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="30" width="150" x="870" y="610" as="geometry" />
         </mxCell>
